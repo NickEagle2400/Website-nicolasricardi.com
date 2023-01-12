@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth
+    }
+} 
+
+@layer components {
+    .btn-primary {
+        @apply inline-block cursor-pointer relative py-3 px-8 rounded-md z-10 text-white bg-black transition duration-200 hover:bg-white hover:text-black border-2 border-black drop-shadow-sm;
+    }
+    .btn-secondary {
+        @apply inline-block cursor-pointer relative rounded-sm py-[10px] px-6 z-10 text-black bg-white transition duration-200 hover:bg-black hover:text-white border-[1px] border-white drop-shadow-sm;
+    }
+    .btn-tertiary {
+        @apply inline-block cursor-pointer relative py-2 px-4 z-10 text-white bg-black transition duration-200 border-b-2 border-transparent hover:border-b-white;
+    }
+    strong{
+        @apply font-bold text-white;
+    }
+}
+

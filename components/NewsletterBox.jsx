@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import Logo from '../public/assets/img/tuple-logo-gray-400.svg'
-
 const NewsletterBox = (props) => {
     return (
         <section className="relative py-12 xl:py-20 bg-black">
@@ -14,8 +11,9 @@ const NewsletterBox = (props) => {
                         </div>
                         Risorse Gratuite
                     </h2>
-                    <h3 className="text-3xl xl:text-4xl font-medium xl:font-bold text-white leading-snug mb-4 mt-0">Boost your productivity. Start using our app today.</h3>
-                    <p className="font-light text-gray-400 leading-normal mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum similique, iste, doloremque tempora in alias temporibus deserunt asperiores voluptas esse.</p>
+                    <h3 className="text-3xl xl:text-4xl font-medium xl:font-bold text-white xl:leading-tight mb-4 mt-0">Scopri se la tua homepage converte i visitatori in prospect con questa checlist gratuita.</h3>
+                    <p className="font-light text-gray-400 leading-normal mb-4">In questa checklist troverai <strong className="text-gray-300 font-medium">50+ tips & tricks</strong> per migliorare ogni possibile aspetto della tua homepage.</p>
+                    <p className="font-light text-gray-400 leading-normal mb-4">Inserisci qui il tuo indirizzo email per ricevere subito il link per accedere alla checklist ed iniziare a generare nuovi clienti.</p>
                     <div className="mt-10">
                         <form action="">
                             <div className="flex flex-row">
@@ -26,7 +24,7 @@ const NewsletterBox = (props) => {
                     </div>
                 </div>
                 <div className="w-full xl:w-1/2 overflow-hidden rounded-md">
-                    <video src="/assets/video/checklist.mp4" className="w-full" controls autoplay muted controlsList="nodownload" loop></video>
+                    <video src="/assets/video/checklist.mp4" className="w-full cursor-pointer" controls controlsList="nodownload"></video>
                 </div>
             </div>
         </section>

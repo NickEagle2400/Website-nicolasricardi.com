@@ -19,7 +19,7 @@ const ServiceDetails = (props) => {
                             </div>
                             Sviluppo Siti Web
                         </h2>
-                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold leading-snug mb-4">Creazione di siti web personalizzati ad alte prestazioni.</h3>
+                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold xl:leading-tight mb-4">Creazione di siti web personalizzati ad alte prestazioni.</h3>
                         <p className="text-gray-400 font-light">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt et repudiandae possimus. Et illum non unde rem repellat architecto, nisi quas accusantium magni? Ducimus sint at et magni laudantium laboriosam?
                         </p>
@@ -82,7 +82,7 @@ const ServiceDetails = (props) => {
                             </div>
                             Search Engine Optimization
                         </h2>
-                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold leading-snug mb-4">Attrai sul tuo sito web utenti interessati ai tuoi prodotti o servizi.</h3>
+                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold xl:leading-tight mb-4">Attrai sul tuo sito web utenti interessati ai tuoi prodotti o servizi.</h3>
                         <p className="text-gray-400 font-light">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt et repudiandae possimus. Et illum non unde rem repellat architecto, nisi quas accusantium magni? Ducimus sint at et magni laudantium laboriosam?
                         </p>
@@ -145,7 +145,7 @@ const ServiceDetails = (props) => {
                             </div>
                             Conversion Rate Optimization
                         </h2>
-                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold leading-snug mb-4">Implementa strategie per convertire sempre più visitatori in potenziali clienti.</h3>
+                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold xl:leading-tight mb-4">Implementa strategie per convertire sempre più visitatori in potenziali clienti.</h3>
                         <p className="text-gray-400 font-light">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt et repudiandae possimus. Et illum non unde rem repellat architecto, nisi quas accusantium magni? Ducimus sint at et magni laudantium laboriosam?
                         </p>

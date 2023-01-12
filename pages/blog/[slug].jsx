@@ -5,9 +5,6 @@ import { StandardLayout } from '../../layout'
 import { BlogPostSidebar, BoxCallToAction } from '../../components'
 import BlogPostContent from '../../components/BlogPostContent'
 
-
-
-
 const SingleBlogPost = () => {
     return (
         <StandardLayout pageTitle="Blog - Nicolas Ricardi">

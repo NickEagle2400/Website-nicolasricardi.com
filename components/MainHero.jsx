@@ -10,18 +10,18 @@ const MainHero = () => {
             <div className="w-full px-4 mx-auto flex flex-col md:flex-row xl:px-0 xl:max-w-7xl xl:gap-12 items-center gap-16">
                 <div className="w-full xl:w-1/2 flex flex-col gap-6">
                     <h1 className="text-3xl text-white font-bold w-full mx-auto relative leading-tight xl:text-6xl">
-                        Realizzo esperienze web su misura per Freelance e Imprese
+                        Genera potenziali clienti grazie al tuo sito web
                     </h1>
                     <p className="relative leading-relaxed font-light text-gray-300">
-                        Aiuto imprenditori e liberi professionisti a convertire gli utenti del loro sito in potenziali clienti grazie ad un pacchetto "chiavi in mano" completamente personalizzato per le necessità del loro business.
+                        Ti aiuto a creare o a trasformare il tuo sito web in uno strumento che porterà a te e al tuo business un flusso costante di potenziali clienti interessati ai tuoi prodotti o servizi.
                     </p>
                     <div className="my-8 flex xl:flex-row flex-col items-start xl:items-center gap-12">
-                        <a className="btn-secondary" href="#">
+                        <Link href="/contatti" className="btn-secondary">
                             Iniziamo a lavorare insieme
-                        </a>
-                        <a className="btn-tertiary text-center hidden xl:inline" href="#">
+                        </Link>
+                        <Link href="#servizi" className="btn-tertiary text-center hidden xl:inline">
                             Come posso aiutare la tua attività
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="w-full xl:w-1/2 relative z-20 flex items-center justify-center">
@@ -30,7 +30,7 @@ const MainHero = () => {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full flex justify-center">
                                     <div className="relative">
-                                        <div className="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 min-w-[150px] overflow-hidden ">
+                                        <div className="shadow-xl rounded-full align-middle border-none absolute -translate-x-1/2 -mt-16 w-[150px] overflow-hidden ">
                                             <Image src={Portrait} alt="Nicolas Ricardi" />
                                         </div>
                                     </div>
@@ -38,7 +38,7 @@ const MainHero = () => {
                                 <div className="w-full text-center mt-20">
                                     <div className="flex justify-center lg:pt-4 pt-8 pb-0">
                                         <div className="p-3 text-center">
-                                            <span className="text-xl font-bold block uppercase tracking-wide text-slate-700">3,360</span>
+                                            <span className="text-xl font-bold block uppercase tracking-wide text-slate-700">15</span>
                                             <span className="text-sm text-slate-500 font-light">Foto</span>
                                         </div>
                                         <div className="p-3 text-center">

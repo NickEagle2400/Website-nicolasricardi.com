@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Portrait from '../public/assets/img/me.png'
+import WebDevImage from '../public/assets/img/test.webp'
 
 
 const BlogHero = () => {
@@ -25,7 +25,7 @@ const BlogHero = () => {
                     </div>
                 </div>
                 <div className="w-full xl:w-1/2 relative z-20 flex items-center justify-center">
-                    <Image src="/assets/img/test.webp" alt="" fill />
+                    <Image src={WebDevImage} alt="" fill />
                 </div>
             </div>
         </section>

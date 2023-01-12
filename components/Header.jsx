@@ -154,10 +154,8 @@ const Header = () => {
                     </Link>
 
                     <div className="hidden xl:block xl:ml-4">
-                        <Link href="/contatti">
-                            <span className="btn-secondary">
-                                Lavoriamo insieme
-                            </span>
+                        <Link href="/contatti" className="btn-secondary">
+                            Lavoriamo insieme
                         </Link>
                     </div>
                     <div className="relative flex flex-col gap-2 items-end justify-center xl:hidden" id="mobileMenu" onClick={toggleMobileMenu}>
@@ -168,7 +166,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <section id="mobileModal" className="fixed top-0 h-screen bg-transparent w-full z-[500] -right-full transition-all duration-300 xl:hidden py-2 px-2 overflow-y-scroll" style={{transform: showMobileMenu?"translateX(-100%)":""}}>
+            <section id="mobileModal" className="fixed top-0 h-screen bg-transparent w-full z-[500] -right-full transition-all duration-300 xl:hidden py-2 px-2 overflow-y-scroll" style={{transform: showMobileMenu?"translateX(-100%)":"unset"}}>
                 <div className="bg-black py-8 px-6 h-auto drop-shadow-md rounded-lg border-[1px] border-white">
                     <div className="w-full flex flex-row items-center justify-between">
                         <div className="w-[50px]">

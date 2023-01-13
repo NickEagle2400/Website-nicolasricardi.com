@@ -14,4 +14,6 @@ export { default as BlogRoll } from './BlogRoll'
 export { default as Hero } from './Hero'
 export { default as Contact } from './Contact'
 export { default as BlogPostSidebar } from './BlogPostSidebar'
+export { default as SeoHead } from './SeoHead'
+
 

@@ -19,9 +19,6 @@ const MainHero = () => {
                         <Link href="/contatti" className="btn-secondary">
                             Iniziamo a lavorare insieme
                         </Link>
-                        <Link href="#servizi" className="btn-tertiary text-center hidden xl:inline">
-                            Come posso aiutare la tua attività
-                        </Link>
                     </div>
                 </div>
                 <div className="w-full xl:w-1/2 relative z-20 flex items-center justify-center">

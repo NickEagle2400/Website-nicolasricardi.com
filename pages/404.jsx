@@ -1,9 +1,18 @@
-import { BoxCallToAction, Hero } from '../components'
+import { BoxCallToAction, Hero, SeoHead } from '../components'
 import { StandardLayout } from '../layout'
 
 const FourOhFour = () => {
     return (
-        <StandardLayout pageTitle="Pagina non trovata - Nicolas Ricardi">
+        <StandardLayout>
+            <SeoHead 
+                pageURL="https://wwww.nicolasricardi.com/"
+                pageTitle="Pagina non trovata - Nicolas Ricardi"
+                pageDesc="Il contenuto che stai cercando non esiste."
+                pageSocialDesc="Il contenuto che stai cercando non esiste."
+                pageKeywords="Nicolas Ricardi"
+                pageCover="/assets/img/coverHome.png"
+                websiteDomain="nicolasricardi.com"
+            />
             <Hero 
                 title="Ops, la pagina che stai cercando non esiste."
                 subtitle="Errore 404"

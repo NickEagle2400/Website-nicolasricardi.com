@@ -43,7 +43,7 @@ const ServiceDetails = (props) => {
                             </div>
                         </div>
                         <div className="mt-8">
-                            <Link href="/contatti">
+                            <Link href="/sviluppo-sito-web">
                                 <span className="btn-secondary" href="/sviluppo-sito-web">
                                     Maggiori dettagli sul servizio
                                 </span>
@@ -89,7 +89,7 @@ const ServiceDetails = (props) => {
                             </div>
                         </div>
                         <div className="mt-8">
-                            <Link href="/contatti">
+                            <Link href="/ottimizzazione-seo">
                                 <span className="btn-secondary" href="/ottimizzazione-seo">
                                     Maggiori dettagli sul servizio
                                 </span>
@@ -135,7 +135,7 @@ const ServiceDetails = (props) => {
                             </div>
                         </div>
                         <div className="mt-8">
-                            <Link href="/contatti">
+                            <Link href="/ottimizzazione-conversion-rate">
                                 <span className="btn-secondary" href="/ottimizzazione-conversion-rate">
                                     Maggiori dettagli sul servizio
                                 </span>

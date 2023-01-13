@@ -4,11 +4,13 @@ import Logo from '../public/assets/img/tuple-logo-gray-400.svg'
 import WebDevImage from '../public/assets/img/test.webp'
 import SEOImage from '../public/assets/img/test.webp'
 import CROImage from '../public/assets/img/web.webp'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 const ServiceDetails = (props) => {
     return (
         <section className="relative py-12 xl:py-20 bg-black">
-            <div className="flex flex-col w-full px-4 xl:px-0 xl:max-w-screen-xl mx-auto gap-32">
+            <div className="flex flex-col w-full px-4 xl:px-0 xl:max-w-screen-xl mx-auto gap-20">
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <div className="w-full xl:w-1/2 ">
                         <h2 className="text-white mb-8">
@@ -25,20 +27,35 @@ const ServiceDetails = (props) => {
                         </p>
                         <div className="w-full flex flex-col xl:flex-row mt-4 mb-12">
                             <div className="w-full xl:w-1/2">
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Sito Responsive</p>
+                                    </div>
                                 </div>
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Completamente Personalizzato
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Completamente Personalizzato</p>
+                                    </div>
                                 </div>
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Altamente Performante
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Altamente Performante</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -71,20 +88,35 @@ const ServiceDetails = (props) => {
                         </p>
                         <div className="w-full flex flex-col xl:flex-row mt-4 mb-12">
                             <div className="w-full xl:w-1/2">
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Sito Responsive</p>
+                                    </div>
                                 </div>
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Completamente Personalizzato</p>
+                                    </div>
                                 </div>
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Altamente Performante</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -117,20 +149,35 @@ const ServiceDetails = (props) => {
                         </p>
                         <div className="w-full flex flex-col xl:flex-row mt-4 mb-12">
                             <div className="w-full xl:w-1/2">
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Sito Responsive</p>
+                                    </div>
                                 </div>
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Completamente Personalizzato</p>
+                                    </div>
                                 </div>
-                                <div className="my-4">
-                                    <p className="text-gray-400 font-light">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
+                                <div className="my-4 flex flex-row items-center">
+                                    <div className="flex items-center justify-center">
+                                        <span className="bg-white bg-opacity-30 rounded-full block w-8 h-8 relative ">
+                                            <FontAwesomeIcon icon={faCheck} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-sm"/>
+                                        </span>
+                                    </div>
+                                    <div className="w-full ml-3">
+                                        <p className="text-gray-400 font-light">Altamente Performante</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

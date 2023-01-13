@@ -26,43 +26,26 @@ const ServiceDetails = (props) => {
                         <div className="w-full flex flex-col xl:flex-row mt-4 mb-12">
                             <div className="w-full xl:w-1/2">
                                 <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
                                     </p>
                                 </div>
                                 <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Completamente Personalizzato
                                     </p>
                                 </div>
                                 <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Altamente Performante
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="w-full xl:w-1/2">
-                                <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
-                                </div>
-                                <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
-                                </div>
-                                <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="mt-8">
                             <Link href="/contatti">
-                                <span className="btn-secondary" href="#">
-                                    Lavora con noi
+                                <span className="btn-secondary" href="/sviluppo-sito-web">
+                                    Scopri il mio servizio di creazione siti web
                                 </span>
                             </Link>
                         </div>
@@ -89,34 +72,17 @@ const ServiceDetails = (props) => {
                         <div className="w-full flex flex-col xl:flex-row mt-4 mb-12">
                             <div className="w-full xl:w-1/2">
                                 <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
                                     </p>
                                 </div>
                                 <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
                                     </p>
                                 </div>
                                 <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="w-full xl:w-1/2">
-                                <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
-                                </div>
-                                <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
-                                </div>
-                                <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(4,173,239,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
                                     </p>
                                 </div>
@@ -124,8 +90,8 @@ const ServiceDetails = (props) => {
                         </div>
                         <div className="mt-8">
                             <Link href="/contatti">
-                                <span className="btn-secondary" href="#">
-                                    Lavora con noi
+                                <span className="btn-secondary" href="/ottimizzazione-seo">
+                                    Scopri il mio servizio di ottimizzazione SEO
                                 </span>
                             </Link>
                         </div>
@@ -152,34 +118,17 @@ const ServiceDetails = (props) => {
                         <div className="w-full flex flex-col xl:flex-row mt-4 mb-12">
                             <div className="w-full xl:w-1/2">
                                 <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
                                     </p>
                                 </div>
                                 <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
                                     </p>
                                 </div>
                                 <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="w-full xl:w-1/2">
-                                <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
-                                </div>
-                                <div className="my-4">
-                                    <p className="text-gray-500">
-                                        <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
-                                    </p>
-                                </div>
-                                <div className="my-4">
-                                    <p className="text-gray-500">
+                                    <p className="text-gray-400 font-light">
                                         <i className="fa-solid fa-check bg-[rgb(236,0,140,1)] p-2 rounded-full text-white mr-1"></i> Sito Web Responsive
                                     </p>
                                 </div>
@@ -187,8 +136,8 @@ const ServiceDetails = (props) => {
                         </div>
                         <div className="mt-8">
                             <Link href="/contatti">
-                                <span className="btn-secondary" href="#">
-                                    Lavora con noi
+                                <span className="btn-secondary" href="/ottimizzazione-conversion-rate">
+                                    Scopri come posso aumentare le conversioni del tuo sito
                                 </span>
                             </Link>
                         </div>

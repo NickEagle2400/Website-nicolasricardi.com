@@ -74,16 +74,16 @@ const Footer = () => {
                         </div>
                         <div className="w-full xl:w-1/3">
                             <p className="text-center xl:text-right">
-                                <Link href="https://www.facebook.com/nicolas.ricardi.77/" rel='me'>
+                                <Link href="https://www.facebook.com/nicolas.ricardi.77/" rel='me'  target='_blank'>
                                     <FontAwesomeIcon icon={faFacebookF} className="text-gray-400 text-xl mx-2 hover:text-white" />
                                 </Link>
-                                <Link href="https://www.instagram.com/nick_ricardi/" rel='me'>
+                                <Link href="https://www.instagram.com/nick_ricardi/" rel='me'  target='_blank'>
                                     <FontAwesomeIcon icon={faInstagram} className="text-gray-400 text-xl mx-2 hover:text-white" />
                                 </Link>
-                                <Link href="https://twitter.com/nick_ricardi00" rel='me'>
+                                <Link href="https://twitter.com/nick_ricardi00" rel='me'  target='_blank'>
                                     <FontAwesomeIcon icon={faTwitter} className="text-gray-400 text-xl mx-2 hover:text-white" />
                                 </Link>
-                                <Link href="https://www.linkedin.com/in/nicolasricardi/" rel='me'>
+                                <Link href="https://www.linkedin.com/in/nicolasricardi/" rel='me'  target='_blank'>
                                     <FontAwesomeIcon icon={faLinkedin} className="text-gray-400 text-xl mx-2 hover:text-white" />
                                 </Link>
                             </p>

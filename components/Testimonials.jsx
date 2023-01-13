@@ -19,7 +19,7 @@ const Testimonials = () => {
                             <div className="w-full xl:w-1/2">
                                 <div>
                                     <h3 className="text-2xl xl:text-3xl font-medium text-white leading-snug mb-4 mt-0">Lorem ipsum dolor sit amet</h3>
-                                    <p className="text-gray-500 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam provident veritatis saepe totam natus molestiae tempore, itaque odit? Distinctio expedita accusamus, qui exercitationem consectetur quis ipsa! Animi, nesciunt nisi?</p>
+                                    <p className="text-gray-400 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam provident veritatis saepe totam natus molestiae tempore, itaque odit? Distinctio expedita accusamus, qui exercitationem consectetur quis ipsa! Animi, nesciunt nisi?</p>
                                     <div className="mt-8">
                                         <p className="text-gray-400 font-medium">Antonio La Falce</p>
                                         <p className="text-gray-400 font-light">Hintime Group</p>
@@ -36,7 +36,7 @@ const Testimonials = () => {
                             <div className="w-full xl:w-1/2">
                                 <div>
                                     <h3 className="text-2xl xl:text-3xl font-medium text-white leading-snug mb-4 mt-0">Lorem ipsum dolor sit amet</h3>
-                                    <p className="text-gray-500 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam provident veritatis saepe totam natus molestiae tempore, itaque odit? Distinctio expedita accusamus, qui exercitationem consectetur quis ipsa! Animi, nesciunt nisi?</p>
+                                    <p className="text-gray-400 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam provident veritatis saepe totam natus molestiae tempore, itaque odit? Distinctio expedita accusamus, qui exercitationem consectetur quis ipsa! Animi, nesciunt nisi?</p>
                                     <div className="mt-8">
                                         <p className="text-gray-400 font-medium">Antonio La Falce</p>
                                         <p className="text-gray-400 font-light">Hintime Group</p>

@@ -28,12 +28,13 @@ const Header = () => {
             <div className="relative w-full xl:max-w-7xl mx-auto flex justify-between items-center h-full py-2 px-4 xl:px-0">
                 <div className="w-[50px] text-left">
                     <Link href="/">
+                        <span className='sr-only'>Nicolas Ricardi Logo</span>
                         <Image src={Logo} alt="Logo Nicolas Ricardi"/>
                     </Link>
                 </div>
                 <div className="flex items-center h-full gap-2">
-                    <Link href="/pagina-in-costruzione">
-                        <span className="cursor-pointer hidden text-gray-300 xl:block text-sm font-light p-2 transition-colors duration-100 hover:text-white " >Chi Sono</span>
+                    <Link href="/pagina-in-costruzione" className="cursor-pointer hidden text-gray-300 xl:block text-sm font-light p-2 transition-colors duration-100 hover:text-white">
+                        Chi Sono
                     </Link>
                     <span className="hidden text-gray-300 xl:block text-sm font-light p-2 cursor-pointer select-none transition-colors duration-100 hover:text-white" id="serviceMenu" onClick={toggleMegamenu} >
                         Servizi
@@ -145,12 +146,12 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    <Link href="/pagina-in-costruzione">
-                        <span className="hidden text-gray-300 xl:block text-sm font-light p-2 transition-colors duration-100 hover:text-white">Portfolio</span>
+                    <Link href="/pagina-in-costruzione" className="hidden text-gray-300 xl:block text-sm font-light p-2 transition-colors duration-100 hover:text-white">
+                        Portfolio
                     </Link>
 
-                    <Link href="/blog">
-                        <span className="hidden text-gray-300 xl:block text-sm font-light p-2 transition-colors duration-100 hover:text-white">Blog</span>
+                    <Link href="/blog" className="hidden text-gray-300 xl:block text-sm font-light p-2 transition-colors duration-100 hover:text-white">
+                        Blog
                     </Link>
 
                     <div className="hidden xl:block xl:ml-4">

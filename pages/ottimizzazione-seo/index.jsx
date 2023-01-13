@@ -33,50 +33,51 @@ const SeoServicePage = () => {
                                         d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
                                 </svg>
                             </div>
-                            Creazione Siti Web
+                            SEO Tecnica
                         </h2>
                         <div className="w-full">
                             <p className="text-gray-400 font-light m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ut numquam? Quis ipsam possimus commodi ex cupiditate odit odio natus, repellendus esse earum expedita nulla asperiores assumenda corrupti placeat nam.</p>
                         </div>
                         <div className="bg-white w-full p-8 rounded-lg">
-                            <p className="relative leading-relaxed">Investimento:</p>
-                            <p className="text-2xl font-bold mt-2">2 Rate da 500€ - IVA esente</p>
-                            <p className="my-1">Totale: a partire da 1000€ IVA esente</p>
+                            <p className="relative leading-relaxed">Audit Technical SEO:</p>
+                            <p className="text-2xl font-bold mt-2">Da 300€ - IVA esente</p>
+                            <p className="my-1">Scontabili in caso di intervento</p>
                             <p className="my-1 text-xs font-light">Prezzo indicativo. Per una valutazione dettagliata richiedi un preventivo.</p>
                             <div className="mt-6">
-                                <a className="btn-primary">Si, voglio un sito web!</a>
+                                <a className="btn-primary">Si, voglio un audit del mio sito!</a>
                             </div>
                         </div>
                     </div>
                     <div className="w-full flex flex-col md:border-l-[1px] md:border-l-zinc-800 gap-10">
                         <div className="md:px-4">
-                            <h3 className="bg-zinc-800 px-4 py-2 rounded-md text-white font-medium text-sm">1. Analisi e Progettazione</h3>
+                            <h3 className="bg-zinc-800 px-4 py-2 rounded-md text-white font-medium text-sm">1. Audit SEO Off-Page</h3>
                             <ul className="mt-4 text-gray-400 pl-4 font-extralight list-disc list-inside leading-normal flex flex-col gap-1">
-                                <li className="">Analisi dati pregressi (se esistenti)</li>
-                                <li className="">Definizione del cliente target</li>
-                                <li className="">Ricerca e analisi delle strategie dei competitor</li>
-                                <li className="">Definizione K.P.I. del sito web</li>
-                                <li className="">Sitemap e flussi di navigazione</li>
+                                <li className="">Verifica prestazioni hosting</li>
+                                <li className="">Verifica certificato SSL</li>
+                                <li className="">Verifica HTTPS</li>
+                                <li className="">Analisi delle Core Web Vitals desktop e mobile</li>
+                                <li className="">Ricerca errori 404</li>
+                                <li className="">Verifica redirect 3xx</li>
+                                <li className="">Analisi del file Robots.txt</li>
+                                <li className="">Verifica della Sitemap.xml</li>
+                                <li className="">Report sui backlink del tuo sito</li>
+
                             </ul>
                         </div>
-                        <div className="md:px-4">
-                            <h3 className="bg-zinc-800 px-4 py-2 rounded-md text-white font-medium text-sm">2. Configurazione Ambiente</h3>
+                        <div class="md:px-4">
+                            <h3 className="bg-zinc-800 px-4 py-2 rounded-md text-white font-medium text-sm">2. Audit SEO On-Page</h3>
                             <ul className="mt-4 text-gray-400 pl-4 font-extralight list-disc list-inside leading-normal flex flex-col gap-1">
-                                <li className="">Acquisto hosting e dominio</li>
-                                <li className="">Installazione Wordpress</li>
-                                <li className="">Installazione certificato SSL</li>
-                                <li className="">Impostazione Redirect HTTPS</li>
-                                <li className="">Creazione Email e Alias</li>
-                            </ul>
-                        </div>
-                        <div className="md:px-4">
-                            <h3 className="bg-zinc-800 px-4 py-2 rounded-md text-white font-medium text-sm">3. Sviluppo del sito</h3>
-                            <ul className="mt-4 text-gray-400 pl-4 font-extralight list-disc list-inside leading-normal flex flex-col gap-1">
-                                <li className="">Creazione menù di navigazione</li>
-                                <li className="">Creazione pagine</li>
-                                <li className="">Creazione modulo di contatto</li>
-                                <li className="">Integrazione Social</li>
-                                <li className="">Integrazione Google Maps</li>
+                                <li className="">Ricerca contenuti duplicati</li>
+                                <li className="">Verifica della presenza dei Meta tag</li>
+                                <li className="">Verifica della presenza dei tag OpenGraph</li>
+                                <li className="">Verifica dei dati strutturati</li>
+                                <li className="">Verifica installazione di Google Analytics</li>
+                                <li className="">Verifica installazione di Google Search Console</li>
+                                <li className="">Verifica installazione del Pixel di Meta</li>
+                                <li className="">Analisi del file Robots.txt</li>
+                                <li className="">Ricerca dei "Dead Link"</li>
+                                <li className="">Verifica attributi "rel" dei link</li>
+                                <li className="">Verifica attributi "hreflang" per siti multilingua</li>
                             </ul>
                         </div>
                     </div>
@@ -108,6 +109,7 @@ const SeoServicePage = () => {
                                 <li>Marketing Automation</li>
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </section>

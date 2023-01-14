@@ -5,4 +5,13 @@ module.exports = {
     locales: ['it'],
     defaultLocale: 'it',
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media.graphassets.com',
+        port: '',
+      },
+    ],
+  },
 }

@@ -1,4 +1,5 @@
-import { GraphQLClient, gql } from 'graphql-request'
+import { GraphQLClient, gql, request } from 'graphql-request'
+
 
 const endpoint = process.env.HYGRAPH_PUBLIC_API
 const authToken = process.env.HYGRAPH_AUTH_TOKEN

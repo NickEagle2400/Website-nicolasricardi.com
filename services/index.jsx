@@ -4,39 +4,41 @@ const graphqlAPI = process.env.HYGRAPH_PUBLIC_API
 
 export const getBlogPosts = async () => {
     const query = gql`
-        query MyQuery {
-            blogPosts(orderBy: publishedAt_DESC) {
-                title
-                slug
-                publishedAt
-                updatedAt
-                excerpt
-                featuredPost
-                author {
-                    name
-                    bio
-                    profilePicture {
-                        fileName
+    query MyQuery {
+        blogPostsConnection {
+            edges {
+                node {
+                    excerpt
+                    featuredPost
+                    publishedAt
+                    slug
+                    title
+                    updatedAt
+                    author {
+                        bio
+                        name
+                        profilePicture {
+                            url
+                        }
+                    }
+                    categories {
+                        name
+                        slug
+                    }
+                    content {
+                        html
+                    }
+                    cover {
                         url
                     }
                 }
-                categories {
-                    name
-                    slug
-                }
-                cover {
-                    url
-                    fileName
-                }
-                content {
-                    html
-                }
             }
-        }  
+        }
+    }
     `
 
     const results = await request(graphqlAPI, query)
 
-    return results
+    return results.blogPostsConnection.edges
 }
 

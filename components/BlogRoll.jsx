@@ -89,7 +89,7 @@ const BlogRoll = ({posts}) => {
 }
 
 export async function getStaticProps() {
-    const posts = (await getBlogPosts());
+    const posts = (await getBlogPosts()) || [];
 
     return {
         props: {posts}

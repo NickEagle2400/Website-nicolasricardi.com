@@ -13,7 +13,7 @@ const NewsletterForm = () => {
   }
 
   return (
-    <form method="POST" action={process.env.ACTIVECAMPAIGN_URL_FORM} id="_form_1_" noValidate>
+    <form method="POST" action={process.env.ACTIVECAMPAIGN_URL_FORM} id="_form_1_" className="w-full" noValidate>
       <input type="hidden" name="u" value="1" />
       <input type="hidden" name="f" value="1" />
       <input type="hidden" name="s" />

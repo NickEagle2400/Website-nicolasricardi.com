@@ -19,8 +19,7 @@ const BlogRoll = (props) => {
                             postURL={post.node.slug}
                             title={post.node.title}
                             coverImgURL={post.node.cover.url}
-                            category={post.node.title}
-                            categoryURL={post.node.title}
+                            category={post.node.categories}
                             author={post.node.author.name}
                             key={post.node.title}
                         />

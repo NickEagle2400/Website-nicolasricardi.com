@@ -53,5 +53,3 @@ export const getBlogPosts = async () => {
 
     return results
 }
-
-getBlogPosts().catch((error) => console.error(error))

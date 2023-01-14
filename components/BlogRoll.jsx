@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import BlogPostCover from '../public/assets/img/test-blog.jpeg'
-import {getBlogPosts} from '../services'
+import {getBlogPosts} from '../services/index'
 
 
 const BlogRoll = ({posts}) => {

@@ -4,7 +4,7 @@ const graphqlAPI = process.env.HYGRAPH_PUBLIC_API
 
 export const getBlogPosts = async () => {
 
-    const graphQLClient = new GraphQLClient(endpoint, {
+    const graphQLClient = new GraphQLClient(process.env.HYGRAPH_PUBLIC_API, {
         headers: {
             authorization: process.env.HYGRAPH_AUTH_TOKEN,
         },
@@ -12,7 +12,7 @@ export const getBlogPosts = async () => {
 
     
     const query = gql`
-    query MyQuery {
+    query getPosts {
         blogPostsConnection {
             edges {
                 node {
@@ -45,8 +45,14 @@ export const getBlogPosts = async () => {
     }
     `
 
-    const results = await graphQLClient.request(query)
-    console.log(JSON.stringify(data, undefined, 2))
+    const results = await graphQLClient.request(query).then(
+            console.log(data)
+        )
+        .catch(
+            console.log(e)
+        )
+        
+    console.log(JSON.stringify(results, undefined, 2))
 
     return results.blogPostsConnection.edges
 }

@@ -1,12 +1,14 @@
-import { graphQLClient, gql } from 'graphql-request'
+import { GraphQLClient, gql } from 'graphql-request'
 
-const graphqlAPI = process.env.HYGRAPH_PUBLIC_API
+const endpoint = process.env.HYGRAPH_PUBLIC_API
+const authToken = process.env.HYGRAPH_AUTH_TOKEN
 
 export const getBlogPosts = async () => {
 
-    const graphQLClient = new GraphQLClient(process.env.HYGRAPH_PUBLIC_API, {
+
+    const graphQLClient = new GraphQLClient(endpoint, {
         headers: {
-            authorization: process.env.HYGRAPH_AUTH_TOKEN,
+            authorization: authToken,
         },
     })
 
@@ -45,15 +47,11 @@ export const getBlogPosts = async () => {
     }
     `
 
-    const results = await graphQLClient.request(query).then(
-            console.log(data)
-        )
-        .catch(
-            console.log(e)
-        )
+    const results = await graphQLClient.request(query)
         
-    console.log(JSON.stringify(results, undefined, 2))
+    console.log(results)
 
-    return results.blogPostsConnection.edges
+    return results
 }
 
+getBlogPosts().catch((error) => console.error(error))

@@ -17,5 +17,6 @@ export { default as BlogPostSidebar } from './BlogPostSidebar'
 export { default as SeoHead } from './SeoHead'
 export { default as BoxCrossSell } from './BoxCrossSell'
 export { default as NewsletterForm } from './NewsletterForm'
+export { default as PostCard } from './PostCard'
 
 

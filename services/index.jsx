@@ -1,8 +1,16 @@
-import { request, gql } from 'graphql-request'
+import { graphQLClient, gql } from 'graphql-request'
 
 const graphqlAPI = process.env.HYGRAPH_PUBLIC_API
 
 export const getBlogPosts = async () => {
+
+    const graphQLClient = new GraphQLClient(endpoint, {
+        headers: {
+            authorization: process.env.HYGRAPH_AUTH_TOKEN,
+        },
+    })
+
+    
     const query = gql`
     query MyQuery {
         blogPostsConnection {
@@ -37,7 +45,8 @@ export const getBlogPosts = async () => {
     }
     `
 
-    const results = await request(graphqlAPI, query)
+    const results = await graphQLClient.request(query)
+    console.log(JSON.stringify(data, undefined, 2))
 
     return results.blogPostsConnection.edges
 }

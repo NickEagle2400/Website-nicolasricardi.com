@@ -1,3 +1,5 @@
+import NewsletterForm from "./NewsletterForm"
+
 const NewsletterBox = (props) => {
     return (
         <section className="relative py-12 xl:py-20 bg-black">
@@ -15,12 +17,7 @@ const NewsletterBox = (props) => {
                     <p className="font-light text-gray-400 leading-normal mb-4">In questa checklist troverai <strong className="text-gray-300 font-medium">50+ tips & tricks</strong> per migliorare ogni possibile aspetto della tua homepage.</p>
                     <p className="font-light text-gray-400 leading-normal mb-4">Inserisci qui il tuo indirizzo email per ricevere subito il link per accedere alla checklist ed iniziare a generare nuovi clienti.</p>
                     <div className="mt-10">
-                        <form action="">
-                            <div className="flex flex-row">
-                                <input type="email" required placeholder="La tua miglior email" className="bg-zinc-800 px-3 py-3 text-gray-200 block rounded-l-md outline-none w-3/5 border-[1px] border-white font-light" />
-                                <button type="submit" className="block rounded-r-md bg-white text-black px-4 font-bold w-2/5">Invia la checklist</button>
-                            </div>
-                        </form>
+                        <NewsletterForm />
                     </div>
                 </div>
                 <div className="w-full xl:w-1/2 overflow-hidden rounded-md">

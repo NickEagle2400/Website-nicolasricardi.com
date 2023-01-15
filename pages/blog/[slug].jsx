@@ -9,22 +9,18 @@ import { getBlogPosts, getPostContent} from '../../services'
 
 const SingleBlogPost = ({post}) => {
 
-    var blogPostURL="test"
-    var blogPostTitle="test"
-    var blogPostDesc="test"
-    var blogPostSocialDesc="test"
-    var blogPostKeywords="test"
-    var blogPostCover="test"
+    console.log(post.seoMetadata)
 
     return (
         <StandardLayout>
             <SeoHead 
-                pageURL={"https://wwww.nicolasricardi.com/".concat(blogPostURL)}
-                pageTitle={blogPostTitle.concat(" - Nicolas Ricardi")}
-                pageDesc={blogPostDesc}
-                pageSocialDesc={blogPostSocialDesc}
-                pageKeywords={blogPostKeywords}
-                pageCover={blogPostCover}
+                pageURL={"https://wwww.nicolasricardi.com/blog/".concat(post.slug)}
+                pageTitle={post.seoMetadata.metaTitle}
+                pageDesc={post.seoMetadata.metaDescription}
+                pageSocialTitle={post.seoMetadata.socialTitle}
+                pageSocialDesc={post.seoMetadata.SocialDescription}
+                pageKeywords={post.seoMetadata.metaKeywords}
+                pageCover={post.seoMetadata.socialImage.url}
                 websiteDomain="nicolasricardi.com"
             />
             <section className="relative pt-0 pb-12 md:py-20 bg-black">

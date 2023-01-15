@@ -91,6 +91,19 @@ export const getPostContent = async ( slug ) => {
                 cover {
                     url
                 }
+                seoMetadata {
+                    ... on SeoHead {
+                        id
+                        metaDescription
+                        metaKeywords
+                        metaTitle
+                        socialDescription
+                        socialTitle
+                        socialImage {
+                            url
+                        }
+                    }
+                }
             }
         }
     `

@@ -86,6 +86,7 @@ export const getPostContent = async ( slug ) => {
                 }
                 content {
                     raw
+                    html
                 }
                 cover {
                     url

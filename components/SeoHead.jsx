@@ -26,6 +26,7 @@ const SeoHead = (props) => {
             <meta property="og:title" content={props.pageTitle} />
             <meta property="og:description" content={props.pageSocialDesc} />
             <meta property="og:image" content={props.pageCover} />
+            <meta property="og:site_name" content="www.nicolasricardi.com" />
 
             <meta name="twitter:card" content="summary_large_image" />
             <meta property="twitter:domain" content={props.websiteDomain} />

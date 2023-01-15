@@ -8,7 +8,7 @@ const BlogRoll = (props) => {
 
     const posts = props.blogPosts.blogPostsConnection
 
-    console.log(posts)
+    console.log(props)
 
     return(
         <div className="w-full md:w-2/3">

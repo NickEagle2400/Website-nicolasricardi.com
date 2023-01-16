@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Logo from '../public/assets/img/logo_w.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram, faLinkedin, faTwitter  } from "@fortawesome/free-brands-svg-icons"
+import IubendaBronzePartner from '../public/assets/img/iubenda.png'
 
 const Footer = () => {
     return(
@@ -68,12 +69,12 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="py-6 flex flex-col-reverse gap-6 xl:gap-0 xl:flex-row align-center justify-center">
-                        <div className="w-full xl:w-2/3 flex items-center text-center px-6 xl:px-0 xl:text-left">
+                        <div className="w-full xl:w-1/3 flex items-center text-center px-6 xl:px-0 xl:text-left">
                             <p className="text-gray-400 text-sm font-light leading-normale w-full text-center xl:text-left">© <span id="year"></span>
                                 <Link href="https://www.nicolasricardi.com">Nicolas Ricardi</Link> - Tutti i diritti sono riservati</p>
                         </div>
-                        <div className="w-full xl:w-1/3">
-                            <p className="text-center xl:text-right">
+                        <div className="w-full xl:w-1/3 flex items-center justify-center">
+                            <p className="text-center">
                                 <Link href="https://www.facebook.com/nicolas.ricardi.77/" rel='me'  target='_blank'>
                                     <span className="sr-only">Facebook</span>
                                     <FontAwesomeIcon icon={faFacebookF} className="text-gray-400 text-xl mx-2 hover:text-white" />
@@ -91,6 +92,9 @@ const Footer = () => {
                                     <FontAwesomeIcon icon={faLinkedin} className="text-gray-400 text-xl mx-2 hover:text-white" />
                                 </Link>
                             </p>
+                        </div>
+                        <div className="w-full xl:w-1/3 flex justify-center xl:justify-end">
+                                <Image src={IubendaBronzePartner} alt="Nicolas Ricardi è un Partner Iubenda Certificato di livello Bronze" width={200} height={120}/>
                         </div>
                     </div>
                 </div>

@@ -60,8 +60,8 @@ const ServiceDetails = (props) => {
                             </div>
                         </div>
                         <div className="mt-8">
-                            <Link href="/sviluppo-sito-web">
-                                <span className="btn-secondary" href="/sviluppo-sito-web">
+                            <Link href="/creazione-sito-web">
+                                <span className="btn-secondary" href="/creazione-sito-web">
                                     Maggiori dettagli sul servizio
                                 </span>
                             </Link>

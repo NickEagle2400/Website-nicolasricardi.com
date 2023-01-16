@@ -46,7 +46,7 @@ const Header = () => {
                     <div className="absolute top-[calc(100%_+_0px)] left-0 w-full bg-black drop-shadow-lg z-10 pt-8 rounded-b-md border-[1px] border-zinc-700 border-t-0" id="megamenu" style={{display: showMegamenu?"block":"none"}}>
                         <div className="flex flex-col gap-4 pb-6 px-6">
                             <div className="flex flex-row gap-6 items-center justify-between">
-                                <Link href="/sviluppo-sito-web" className="w-1/3">
+                                <Link href="/creazione-sito-web" className="w-1/3">
                                     <div className="cursor-pointer w-full p-6 bg-zinc-900 rounded-md hover:bg-zinc-800 transition-colors duration-100">
                                         <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -184,7 +184,7 @@ const Header = () => {
                     </div>
                     <div className="flex flex-col mt-4">
 
-                        <Link href="/sviluppo-sito-web">
+                        <Link href="/creazione-sito-web">
                             <div className="flex flex-row gap-2 items-center py-2 border-b-[1px] border-zinc-700">
                                 <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"

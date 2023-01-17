@@ -56,7 +56,7 @@ const WebsiteServicePage = () => {
                             <p className="my-1">+ costi di gestione mensile</p>
                             <p className="my-1 text-xs font-light">Prezzo indicativo. Per una valutazione dettagliata richiedi un preventivo. È possibile rateizzare il pagamento della prima quota.</p>
                             <div className="mt-6">
-                                <a className="btn-primary w-full text-center">Si, voglio un sito web!</a>
+                                <Link className="btn-primary w-full text-center" href="/contatti">Si, voglio un sito web!</Link>
                             </div>
                         </div>
                     </div>

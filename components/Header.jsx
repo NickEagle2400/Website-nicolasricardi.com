@@ -21,7 +21,13 @@ const Header = () => {
         <header className="bg-black sticky top-0 z-[1000] xl:px-0 border-b-[1px] border-b-zinc-700">
             <section className="relative w-full py-2 bg-white text-black text-center text-sm" id="topbar">
                 <p className="text-black w-full px-4 mx-auto xl:max-w-7xl xl:px-0 font-light">
-                    Hai paura che la homepage del tuo sito non sia ottimizzata?<Link href="/pagina-in-costruzione"><span className="text-black font-bold hover:underline"> Scarica gratis la checklist!<i className="fa-solid fa-arrow-up-right-from-square pl-1"></i></span></Link>
+                    Hai paura che la homepage del tuo sito non sia ottimizzata?
+                    <Link href="/pagina-in-costruzione" className="text-black font-bold group ml-2 inline-block">
+                        Scarica gratis la checklist! 
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="ml-2 w-4 h-4 inline align-text-top transition-transform duration-200 group-hover:rotate-45">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </Link>
                 </p>
             </section>
             <div className="pointer-events-none absolute shadow w-full h-full top-0 left-0 z-50"></div>
@@ -33,20 +39,17 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="flex items-center h-full gap-2">
-                    <Link href="/pagina-in-costruzione" className="cursor-pointer hidden text-gray-300 xl:block text-sm font-light p-2 transition-colors duration-100 hover:text-white">
-                        Chi Sono
-                    </Link>
                     <span className="hidden text-gray-300 xl:block text-sm font-light p-2 cursor-pointer select-none transition-colors duration-100 hover:text-white" id="serviceMenu" onClick={toggleMegamenu} >
                         Servizi
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
-                            stroke="currentColor" className="w-3 h-3 inline pointer-events-none">
+                            stroke="currentColor" className="ml-1 w-3 h-3 inline pointer-events-none transition-transform duration-200" style={{transform: showMegamenu?"rotate(-180deg)":"none"}}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                         </svg>
                     </span>
                     <div className="absolute top-[calc(100%_+_0px)] left-0 w-full bg-black drop-shadow-lg z-10 pt-8 rounded-b-md border-[1px] border-zinc-700 border-t-0" id="megamenu" style={{display: showMegamenu?"block":"none"}}>
                         <div className="flex flex-col gap-4 pb-6 px-6">
                             <div className="flex flex-row gap-6 items-center justify-between">
-                                <Link href="/creazione-sito-web" className="w-1/3">
+                                <Link href="/creazione-sito-web" className="w-1/3 group">
                                     <div className="cursor-pointer w-full p-6 bg-zinc-900 rounded-md hover:bg-zinc-800 transition-colors duration-100">
                                         <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -58,14 +61,14 @@ const Header = () => {
                                         <p className="my-3 text-white ">Sviluppo Sito Web</p>
                                         <p className="leading-normal font-light text-gray-400 text-sm">Soluzioni complete per la creazione di siti web professionali in grado di attirare il traffico e convertire i visitatori in clienti.</p>
                                         <p className="text-main text-sm mt-4 text-white">Come posso aiutarti 
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 inline">
-                                                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="ml-2 w-4 h-4 inline transition-transform duration-200 group-hover:rotate-45">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                             </svg>
                                         </p>
                                     </div>
                                 </Link>
 
-                                <Link href="/ottimizzazione-seo" className="w-1/3">
+                                <Link href="/ottimizzazione-seo" className="w-1/3 group">
                                     <div className="cursor-pointer w-full p-6 bg-zinc-900 rounded-md hover:bg-zinc-800 transition-colors duration-100" >
                                         <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 text-black">
@@ -76,14 +79,14 @@ const Header = () => {
                                         <p className="my-3 text-white ">Search Engine Optimization</p>
                                         <p className="leading-normal font-light text-gray-400 text-sm">Un sito ben ottimizzato a livello tecnico è fondamentale per garantire che i motori di ricerca possano indicizzare il suo contenuto.</p>
                                         <p className="text-main text-sm mt-4 text-white">Come posso aiutarti 
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 inline">
-                                                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                                            </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="ml-2 w-4 h-4 inline transition-transform duration-200 group-hover:rotate-45">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
                                         </p>
                                     </div>
                                 </Link>
 
-                                <Link href="/ottimizzazione-conversion-rate" className="w-1/3">
+                                <Link href="/ottimizzazione-conversion-rate" className="w-1/3 group">
                                     <div className="cursor-pointer w-full p-6 bg-zinc-900 rounded-md hover:bg-zinc-800 transition-colors duration-100">
                                         <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 text-black">
@@ -94,8 +97,8 @@ const Header = () => {
                                         <p className="my-3 text-white ">Convertion Rate Optimization</p>
                                         <p className="leading-normal font-light text-gray-400 text-sm">Traccia, monitora e analizza il comportamento degli utenti sul tuo sito web per migliorare la tua strategia di acquisizione clienti.</p>
                                         <p className="text-main text-sm mt-4 text-white">Come posso aiutarti 
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 inline">
-                                                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="ml-2 w-4 h-4 inline transition-transform duration-200 group-hover:rotate-45">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                             </svg>
                                         </p>
                                     </div>
@@ -156,7 +159,7 @@ const Header = () => {
 
                     <div className="hidden xl:block xl:ml-4">
                         <Link href="/contatti" className="btn-secondary">
-                            Lavoriamo insieme
+                            Inviami un messaggio
                         </Link>
                     </div>
                     <div className="relative flex flex-col gap-2 items-end justify-center xl:hidden" id="mobileMenu" onClick={toggleMobileMenu}>
@@ -240,11 +243,6 @@ const Header = () => {
                         <div className="flex flex-col w-1/2">
                             <Link href="/pagina-in-costruzione">
                                 <span className="block py-2 font-light text-gray-300">
-                                    Chi Sono
-                                </span>
-                            </Link>
-                            <Link href="/pagina-in-costruzione">
-                                <span className="block py-2 font-light text-gray-300">
                                     Portfolio
                                 </span>
                             </Link>
@@ -255,11 +253,6 @@ const Header = () => {
                             </Link>
                         </div>
                         <div className="flex flex-col w-1/2">
-                            <Link href="/pagina-in-costruzione">
-                                <span className="block py-2 font-light text-gray-300">
-                                    Audit Sito Web
-                                </span>
-                            </Link>
                             <Link href="/pagina-in-costruzione">
                                 <span className="block py-2 font-light text-gray-300">
                                     Consulenza

@@ -25,13 +25,16 @@ const Footer = () => {
                             <h3 className="font-medium text-white mb-4">Servizi</h3>
                             <ul className="flex flex-col gap-3 text-gray-400 font-light text-sm">
                                 <li className="p-0 m-0">
-                                    <Link href="/sviluppo-sito-web" className="hover:text-white">Sviluppo Siti Web</Link>
+                                    <Link href="/sviluppo-sito-web" className="hover:text-white">Roadmapping</Link>
                                 </li>
                                 <li className="p-0 m-0">
-                                    <Link href="/ottimizzazione-seo" className="hover:text-white">SEO</Link>
+                                    <Link href="/ottimizzazione-seo" className="hover:text-white">Creazione Sito Web</Link>
                                 </li>
                                 <li className="p-0 m-0">
-                                    <Link href="ottimizzazione-conversion-rate" className="hover:text-white">Convertion Rate Optimization</Link>
+                                    <Link href="ottimizzazione-conversion-rate" className="hover:text-white">Sicurezza & Manutenzione</Link>
+                                </li>
+                                <li className="p-0 m-0">
+                                    <Link href="ottimizzazione-conversion-rate" className="hover:text-white">Audit Core Web Vitals</Link>
                                 </li>
                             </ul>
                         </div>
@@ -39,10 +42,13 @@ const Footer = () => {
                             <h3 className="font-medium text-white mb-4">Link Utili</h3>
                             <ul className="flex flex-col gap-3 text-gray-400 font-light text-sm">
                                 <li className="p-0 m-0">
-                                    <Link href="/chi-sono" className="hover:text-white">Chi sono</Link>
+                                    <Link href="/chi-sono" className="hover:text-white">Home</Link>
                                 </li>
                                 <li className="p-0 m-0">
                                     <Link href="/portfolio" className="hover:text-white">Portfolio</Link>
+                                </li>
+                                <li className="p-0 m-0">
+                                    <Link href="/contatti" className="hover:text-white">Blog</Link>
                                 </li>
                                 <li className="p-0 m-0">
                                     <Link href="/contatti" className="hover:text-white">Contatti</Link>

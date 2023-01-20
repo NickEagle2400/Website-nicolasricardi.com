@@ -13,7 +13,7 @@ const NewsletterBox = (props) => {
                         </div>
                         Risorse Gratuite
                     </h2>
-                    <h3 className="text-3xl xl:text-4xl font-medium xl:font-bold text-white xl:leading-tight mb-4 mt-0">Scopri se la tua homepage converte i visitatori in prospect con questa checklist gratuita.</h3>
+                    <h3 className="text-3xl xl:text-4xl font-medium xl:font-bold text-white xl:leading-tight mb-4 mt-0">Scopri se la tua homepage converte i visitatori con questa checklist gratuita.</h3>
                     <p className="font-light text-gray-400 leading-normal mb-4">In questa checklist troverai <strong className="text-gray-300 font-medium">50+ tips & tricks</strong> per migliorare ogni possibile aspetto della tua homepage.</p>
                     <p className="font-light text-gray-400 leading-normal mb-4">Inserisci qui il tuo indirizzo email per ricevere subito il link per accedere alla checklist ed iniziare a generare nuovi clienti.</p>
                     <div className="mt-10">

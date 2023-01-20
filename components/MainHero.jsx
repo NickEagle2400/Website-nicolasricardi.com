@@ -9,20 +9,23 @@ const MainHero = () => {
         <section className="relative pt-12 pb-6 xl:py-20 xl:pb-12 bg-black flex items-center justify-center">
             <div className="w-full px-4 mx-auto flex flex-col md:flex-row xl:px-0 xl:max-w-7xl xl:gap-12 items-center gap-16">
                 <div className="w-full xl:w-1/2 flex flex-col gap-6">
-                    <h1 className="text-3xl text-white font-bold w-full mx-auto relative leading-tight xl:text-6xl">
-                        Genera potenziali clienti grazie al tuo sito web
+                    <h1 className="text-5xl text-white font-bold w-full mx-auto relative leading-tight xl:text-6xl">
+                        Genera clienti e fai crescere il tuo business grazie al tuo sito web.
                     </h1>
                     <p className="relative leading-relaxed font-light text-gray-300">
-                        Ti aiuto a creare o a trasformare il tuo sito web in uno strumento che porterà a te e al tuo business un flusso costante di potenziali clienti interessati ai tuoi prodotti o servizi.
+                        Creo siti web di nuova generazione in grado di portare a te e al tuo business un flusso costante di potenziali clienti interessati ai tuoi prodotti e servizi.
                     </p>
                     <div className="my-8 flex xl:flex-row flex-col items-start xl:items-center gap-12">
-                        <Link href="/contatti" className="btn-secondary">
-                            Iniziamo a lavorare insieme
+                        <Link href="/contatti" className="btn-secondary group">
+                            Fai il primo passo 
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="ml-2 w-5 h-5 inline transition-transform duration-200 group-hover:rotate-45">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
                         </Link>
                     </div>
                 </div>
                 <div className="w-full xl:w-1/2 relative z-20 flex items-center justify-center">
-                    <div className="relative max-w-md mx-auto md:max-w-2xl min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-6">
+                    <div className="relative max-w-md mx-auto md:max-w-2xl min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-md mt-6">
                         <div className="px-6">
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full flex justify-center">
@@ -32,24 +35,8 @@ const MainHero = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-full text-center mt-20">
-                                    <div className="flex justify-center lg:pt-4 pt-8 pb-0">
-                                        <div className="p-3 text-center">
-                                            <span className="text-xl font-bold block uppercase tracking-wide text-slate-700">15</span>
-                                            <span className="text-sm text-slate-500 font-light">Foto</span>
-                                        </div>
-                                        <div className="p-3 text-center">
-                                            <span className="text-xl font-bold block uppercase tracking-wide text-slate-700">2,454</span>
-                                            <span className="text-sm text-slate-500 font-light">Followers</span>
-                                        </div>
-                                        <div className="p-3 text-center">
-                                            <span className="text-xl font-bold block uppercase tracking-wide text-slate-700">564</span>
-                                            <span className="text-sm text-slate-500 font-light">Following</span>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
-                            <div className="text-center mt-2">
+                            <div className="text-center mt-28">
                                 <h2 className="text-2xl text-slate-700 font-bold leading-normal mb-1">Nicolas Ricardi</h2>
                                 <div className="text-xs mt-0 mb-2 text-slate-500 uppercase">
                                     <i className="fas fa-map-marker-alt mr-2 text-slate-500"></i>Treviglio (BG), Italia

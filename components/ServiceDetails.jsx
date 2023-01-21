@@ -36,7 +36,7 @@ const ServiceDetails = (props) => {
                         </div>
                     </div>
                     <div className="w-full xl:w-1/2">
-                        <Image src={WebDevImage} alt=""/>
+                        <Image src={WebDevImage} alt="Creazione di siti web - Nicolas Ricardi"/>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row-reverse items-center gap-12">
@@ -97,7 +97,7 @@ const ServiceDetails = (props) => {
                         </div>
                     </div>
                     <div className="w-full xl:w-1/2">
-                        <Image src={SEOImage} alt=""/>
+                        <Image src={SEOImage} alt="Dashboard di Vercel in riferimento alle prestazioni del sito www.nicolasricardi.com"/>
                     </div>
                 </div>
             </div>

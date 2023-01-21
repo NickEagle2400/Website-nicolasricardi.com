@@ -24,7 +24,7 @@ const Testimonials = () => {
                     </div>
                     <div className="w-full lg:w-1/2"> 
                         <div className="flex flex-col w-full gap-4 rounded-md">
-                            <div className="flex items-center gap-4 p-4 rounded-md transition-colors duration-200 hover:bg-zinc-900">
+                            <div className="flex items-center gap-4 px-4 pt-8 pb-4 rounded-md transition-colors duration-200 hover:bg-zinc-900">
                                 <div className='min-w-[80px] h-[80px] rounded-full overflow-hidden relative'>
                                     <Image src={RevFirst} fill alt style={{objectFit:"cover"}}/>
                                 </div>
@@ -35,7 +35,7 @@ const Testimonials = () => {
                                     <p className="text-gray-300 cursor-default font-medium">CEO Hintime Group</p>
                                 </div>
                             </div>
-                            <div className="flex items-center gap-4 p-4 rounded-md transition-colors duration-200 hover:bg-zinc-900">
+                            <div className="flex items-center gap-4 px-4 pt-8 pb-4 rounded-md transition-colors duration-200 hover:bg-zinc-900">
                                 <div className='min-w-[80px] h-[80px] rounded-full overflow-hidden relative'>
                                     <Image src={RevSecond} fill alt style={{objectFit:"cover"}}/>
                                 </div>

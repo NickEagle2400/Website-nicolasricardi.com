@@ -8,7 +8,7 @@ const Home = () => {
     <StandardLayout>
       <SeoHead 
         pageURL="https://wwww.nicolasricardi.com/"
-        pageTitle="Creo siti web che convertono i visitatori in clienti - Nicolas Ricardi"
+        pageTitle="Creo di siti web che generano contatti per il tuo business - Nicolas Ricardi"
         pageDesc="Mi occupo di progettazione e creazioni di siti web orientati a trasformare i visitatori in potenziali clienti per la tua attività o libera professione."
         pageSocialDesc="Progetto siti web in grado di convertire i visitari in lead per la tua attività"
         pageKeywords="Nicolas Ricardi, Realizzazione siti Web Treviglio, Realizzazione siti web Bergamo, Creazione siti web Bergamo, Creazione siti web Treviglio, Lead generation Treviglio, lead generation Bergamo, Lead generation b2b"

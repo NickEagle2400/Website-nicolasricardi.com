@@ -1,4 +1,6 @@
 import NewsletterForm from "./NewsletterForm"
+import Image from "next/image"
+import Checklist from "../public/assets/img/checklist.png"
 
 const NewsletterBox = (props) => {
     return (
@@ -20,8 +22,8 @@ const NewsletterBox = (props) => {
                         <NewsletterForm />
                     </div>
                 </div>
-                <div className="w-full xl:w-1/2 overflow-hidden rounded-md">
-                    <video src="/assets/video/checklist.mp4" className="w-full cursor-pointer" controls controlsList="nodownload"></video>
+                <div className="w-full xl:w-1/2">
+                    <Image src={Checklist} alt="Checklist per ottimizzare le conversioni sul tuo sito web" style={{objectFit:"contain"}} />
                 </div>
             </div>
         </section>
@@ -29,3 +31,5 @@ const NewsletterBox = (props) => {
 }
 
 export default NewsletterBox
+
+// hidden lg:block lg:min-h-[150px] xl:min-h-[300px]  

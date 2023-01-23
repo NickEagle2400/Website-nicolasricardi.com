@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { StandardLayout } from '../../layout'
-import { BoxCrossSell, Hero, SeoHead } from '../../components'
+import { BoxCrossSell, Hero, SeoHead, ServiceGridDetail, Testimonials, WebDevContact } from '../../components'
 
 
 const WebsiteServicePage = () => {
@@ -21,6 +21,10 @@ const WebsiteServicePage = () => {
                 subtitle="SITI WEB RESPONSIVE E SU MISURA"
                 description="Negli ultimi anni la competizione online è salita alle stelle e ora non basta più un semplice sito vetrina per far sapere agli utenti che esisti. Se vuoi davvero portare la tua attività al livello successivo devi necessariamente considerare il tuo sito web come l'asset principale per espanderti nel mondo digitale. "
             />
+
+
+
+
 
             <section className="relative pt-12 pb-6 xl:py-16 bg-black flex items-center justify-center">
                 <div className="w-full px-4 mx-auto flex flex-col md:flex-row xl:px-0 xl:max-w-7xl justify-between gap-10 md:gap-0">
@@ -118,8 +122,9 @@ const WebsiteServicePage = () => {
                     </div>
                 </div>
             </section>
-
-            <BoxCrossSell />
+            <ServiceGridDetail />
+            <Testimonials />
+            <WebDevContact />
 
         </StandardLayout>
     )

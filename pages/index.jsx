@@ -18,7 +18,6 @@ const Home = () => {
       <MainHero />
       <BannerLogos />
       <ServiceCards />
-      <ServiceDetails />
       <NewsletterBox />
       <Testimonials />
       <BoxCallToAction />

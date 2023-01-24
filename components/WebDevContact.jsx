@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 const WebDevContact = () => {
 
     return (
@@ -12,7 +13,7 @@ const WebDevContact = () => {
                                 <h2 className="font-medium capitalize text-white">Starter Plan</h2>
                             </div>
                             <div className="border-b-[1px] border-white py-4 px-6">
-                                <h2 className="text-5xl text-white"><span className="text-base font-light text-gray-400">A partire da</span> 2000€</h2>
+                                <h2 className="text-5xl text-white"><span className="text-base font-light text-gray-400">A partire da </span> &nbsp;2000€</h2>
                             </div>
                             <div className="border-b-[1px] border-white py-4 px-6">
                                 <h2 className="text-gray-300 mb-3">Roadmapping e pianificazione</h2>

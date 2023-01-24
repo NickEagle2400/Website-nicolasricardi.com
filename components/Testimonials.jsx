@@ -9,7 +9,7 @@ const Testimonials = () => {
     return(
         <section className="relative py-12 xl:py-20 bg-black px-4 xl:px-0">
             <div className="w-full mx-auto xl:max-w-7xl h-full">
-                <div className="w-full flex flex-col lg:flex-row gap-12">
+                <div className="w-full flex flex-col gap-12">
                     <div className="w-full lg:w-1/2">
                         <h2 className="text-white mb-8">
                             <div className="w-10 h-10 rounded-lg bg-white inline-flex items-center justify-center drop-shadow-lg mr-2">
@@ -20,30 +20,55 @@ const Testimonials = () => {
                             Recensioni
                         </h2>
                         <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold xl:leading-tight mb-4">Alcune testimonianze di imprenditori e professionisti con cui ho lavorato</h3>
-                        <p className="text-gray-400 font-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla repellat ipsam, dolorum incidunt magni dolor minima error ratione itaque, sed harum sint commodi! Odit, molestiae numquam cumque cum corporis dolorem.</p>
                     </div>
-                    <div className="w-full lg:w-1/2"> 
-                        <div className="flex flex-col w-full gap-4 rounded-md">
-                            <div className="flex items-center gap-4 px-4 pt-8 pb-4 rounded-md transition-colors duration-200 hover:bg-zinc-900">
-                                <div className='min-w-[80px] h-[80px] rounded-full overflow-hidden relative'>
-                                    <Image src={RevFirst} fill alt style={{objectFit:"cover"}}/>
-                                </div>
+                    <div className="w-full"> 
+                        <div className="flex flex-col lg:flex-row w-full gap-12 rounded-md">
+                            <div className="px-4 lg:px-0 rounded-md">
                                 <div className='w-full relative'>
                                     <p className="text-8xl absolute opacity-20 -top-6 -left-6 text-white italic pointer-events-none select-none">"</p>
                                     <p className="text-gray-400 font-light cursor-default mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minima voluptate natus quia earum consectetur repellendus temporibus sint, vero amet nemo rem soluta? Architecto excepturi ratione quos perferendis! Maiores, deserunt.</p>
-                                    <p className="text-gray-300 cursor-default font-medium">Antonio La Falce</p>
-                                    <p className="text-gray-300 cursor-default font-medium">CEO Hintime Group</p>
+                                    <div className="flex flex-row items-center gap-4 mt-6">
+                                        <div className='min-w-[60px] h-[60px] rounded-full overflow-hidden relative'>
+                                            <Image src={RevFirst} fill alt="test" style={{objectFit:"cover"}}/>
+                                        </div>
+                                        <div>
+                                            <p className="text-gray-300 cursor-default font-medium">Antonio La Falce</p>
+                                            <p className="text-gray-300 cursor-default font-medium">CEO Hintime Group</p>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
-                            <div className="flex items-center gap-4 px-4 pt-8 pb-4 rounded-md transition-colors duration-200 hover:bg-zinc-900">
-                                <div className='min-w-[80px] h-[80px] rounded-full overflow-hidden relative'>
-                                    <Image src={RevSecond} fill alt style={{objectFit:"cover"}}/>
-                                </div>
+                            <div className="px-4 lg:px-0 rounded-md">
                                 <div className='w-full relative'>
                                     <p className="text-8xl absolute opacity-20 -top-6 -left-6 text-white italic pointer-events-none select-none">"</p>
                                     <p className="text-gray-400 font-light cursor-default mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minima voluptate natus quia earum consectetur repellendus temporibus sint, vero amet nemo rem soluta? Architecto excepturi ratione quos perferendis! Maiores, deserunt.</p>
-                                    <p className="text-gray-300 cursor-default font-medium">Antonio La Falce</p>
-                                    <p className="text-gray-300 cursor-default font-medium">CEO Hintime Group</p>
+                                    <div className="flex flex-row items-center gap-4 mt-6">
+                                        <div className='min-w-[60px] h-[60px] rounded-full overflow-hidden relative'>
+                                            <Image src={RevSecond} fill alt="test" style={{objectFit:"cover"}}/>
+                                        </div>
+                                        <div>
+                                            <p className="text-gray-300 cursor-default font-medium">Antonio La Falce</p>
+                                            <p className="text-gray-300 cursor-default font-medium">CEO Hintime Group</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div className="hidden lg:block px-4 lg:px-0 rounded-md">
+                                <div className='w-full relative'>
+                                    <p className="text-8xl absolute opacity-20 -top-6 -left-6 text-white italic pointer-events-none select-none">"</p>
+                                    <p className="text-gray-400 font-light cursor-default mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minima voluptate natus quia earum consectetur repellendus temporibus sint, vero amet nemo rem soluta? Architecto excepturi ratione quos perferendis! Maiores, deserunt.</p>
+                                    <div className="flex flex-row items-center gap-4 mt-6">
+                                        <div className='min-w-[60px] h-[60px] rounded-full overflow-hidden relative'>
+                                            <Image src={RevSecond} fill alt="test" style={{objectFit:"cover"}}/>
+                                        </div>
+                                        <div>
+                                            <p className="text-gray-300 cursor-default font-medium">Antonio La Falce</p>
+                                            <p className="text-gray-300 cursor-default font-medium">CEO Hintime Group</p>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>

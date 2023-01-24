@@ -20,6 +20,8 @@ export { default as NewsletterForm } from './NewsletterForm'
 export { default as PostCard } from './PostCard'
 export { default as ServiceGridDetail } from './ServiceGridDetail'
 export { default as WebDevContact } from './WebDevContact'
+export { default as Faq } from './Faq'
+export { default as PortfolioFeatured } from './PortfolioFeatured'
 
 
 

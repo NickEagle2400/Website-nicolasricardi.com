@@ -9,7 +9,6 @@ const Blog = ({posts}) => {
     return (
         <StandardLayout pageTitle="Blog - Nicolas Ricardi">
             <BlogHero />
-            <FeaturedPosts />
             <SidebarLayout >
                 <BlogRoll 
                     blogPosts={posts}

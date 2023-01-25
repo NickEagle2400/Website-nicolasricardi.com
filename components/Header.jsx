@@ -49,17 +49,17 @@ const Header = () => {
                     <div className="absolute top-[calc(100%_+_0px)] left-0 w-full bg-black drop-shadow-lg z-10 pt-8 rounded-b-md border-[1px] border-zinc-700 border-t-0" id="megamenu" style={{display: showMegamenu?"block":"none"}}>
                         <div className="flex flex-col gap-4 pb-6 px-6">
                             <div className="flex flex-row gap-6 items-center justify-between">
-                                <Link href="/creazione-sito-web" className="w-1/3 group">
+                                <Link href="/roadmapping" className="w-1/3 group">
                                     <div className="cursor-pointer w-full p-6 bg-zinc-900 rounded-md hover:bg-zinc-800 transition-colors duration-100">
-                                        <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 text-black">
-                                                <path strokeLinecap="round" strokeLinejoin="round"
-                                                    d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
-                                            </svg>
-                                        </div>
-                                        <p className="my-3 text-white ">Sviluppo Sito Web</p>
-                                        <p className="leading-normal font-light text-gray-400 text-sm">Soluzioni complete per la creazione di siti web professionali in grado di attirare il traffico e convertire i visitatori in clienti.</p>
+                                        <p className="text-white mb-4 flex items-center">
+                                            <span className="w-10 h-10 rounded-lg bg-white inline-flex items-center justify-center drop-shadow-lg mr-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-black">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+                                                </svg>
+                                            </span>
+                                            Roadmapping
+                                        </p>
+                                        <p className="leading-normal font-light text-gray-400 text-sm">Lega i tuoi obiettivi di business all'architettura del sito web e ottieni una soluzione che supera i tuoi obiettivi di crescita.</p>
                                         <p className="text-main text-sm mt-4 text-white">Come posso aiutarti 
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="ml-2 w-4 h-4 inline transition-transform duration-200 group-hover:rotate-45">
                                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
@@ -68,16 +68,17 @@ const Header = () => {
                                     </div>
                                 </Link>
 
-                                <Link href="/ottimizzazione-seo" className="w-1/3 group">
+                                <Link href="/creazione-sito-web" className="w-1/3 group">
                                     <div className="cursor-pointer w-full p-6 bg-zinc-900 rounded-md hover:bg-zinc-800 transition-colors duration-100" >
-                                        <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 text-black">
-                                                <path strokeLinecap="round" strokeLinejoin="round"
-                                                    d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
-                                            </svg>
-                                        </div>
-                                        <p className="my-3 text-white ">Search Engine Optimization</p>
-                                        <p className="leading-normal font-light text-gray-400 text-sm">Un sito ben ottimizzato a livello tecnico è fondamentale per garantire che i motori di ricerca possano indicizzare il suo contenuto.</p>
+                                        <p className="text-white mb-4 flex items-center">
+                                            <span className="w-10 h-10 rounded-lg bg-white inline-flex items-center justify-center drop-shadow-lg mr-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-black">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+                                                </svg>
+                                            </span>
+                                            Creazione Sito Web
+                                        </p>
+                                        <p className="leading-normal font-light text-gray-400 text-sm">Soluzioni complete per la creazione di siti web professionali in grado di attirare il traffico e convertire i visitatori in clienti.</p>
                                         <p className="text-main text-sm mt-4 text-white">Come posso aiutarti 
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="ml-2 w-4 h-4 inline transition-transform duration-200 group-hover:rotate-45">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
@@ -86,15 +87,16 @@ const Header = () => {
                                     </div>
                                 </Link>
 
-                                <Link href="/ottimizzazione-conversion-rate" className="w-1/3 group">
+                                <Link href="/manutenzione-sicurezza" className="w-1/3 group">
                                     <div className="cursor-pointer w-full p-6 bg-zinc-900 rounded-md hover:bg-zinc-800 transition-colors duration-100">
-                                        <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4 text-black">
-                                                <path strokeLinecap="round" strokeLinejoin="round"
-                                                    d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
-                                            </svg>
-                                        </div>
-                                        <p className="my-3 text-white ">Convertion Rate Optimization</p>
+                                        <p className="text-white mb-4 flex items-center">
+                                            <span className="w-10 h-10 rounded-lg bg-white inline-flex items-center justify-center drop-shadow-lg mr-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-black">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+                                                </svg>
+                                            </span>
+                                            Manutenzione & Sicurezza
+                                        </p>
                                         <p className="leading-normal font-light text-gray-400 text-sm">Traccia, monitora e analizza il comportamento degli utenti sul tuo sito web per migliorare la tua strategia di acquisizione clienti.</p>
                                         <p className="text-main text-sm mt-4 text-white">Come posso aiutarti 
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="ml-2 w-4 h-4 inline transition-transform duration-200 group-hover:rotate-45">
@@ -110,11 +112,8 @@ const Header = () => {
                                 <Link href="/pagina-in-costruzione">
                                     <div className="cursor-pointer hover:bg-zinc-800 px-4 py-3 rounded-md">
                                         <p className="flex items-center gap-2 text-gray-200 font-light text-sm">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                strokeWidth="1.5" stroke="currentColor"
-                                                className="w-6 h-6 inline text-gray-400">
-                                                <path strokeLinecap="round" strokeLinejoin="round"
-                                                    d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 inline text-gray-400">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
                                             </svg>
                                             Risorse Gratuite
                                         </p>
@@ -123,11 +122,8 @@ const Header = () => {
                                 <Link href="/pagina-in-costruzione">
                                     <div className="cursor-pointer hover:bg-zinc-800 px-4 py-3 rounded-md">
                                         <p className="flex items-center gap-2 text-gray-200 font-light text-sm">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                strokeWidth="1.5" stroke="currentColor"
-                                                className="w-6 h-6 inline text-gray-400">
-                                                <path strokeLinecap="round" strokeLinejoin="round"
-                                                    d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 inline text-gray-400">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
                                             </svg>
                                             Audit Sito Web
                                         </p>
@@ -136,11 +132,8 @@ const Header = () => {
                                 <Link href="/contatti">
                                     <div className="cursor-pointer hover:bg-zinc-800 px-4 py-3 rounded-md">
                                         <p className="flex items-center gap-2 text-gray-200 font-light text-sm">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                strokeWidth="1.5" stroke="currentColor"
-                                                className="w-6 h-6 inline text-gray-400">
-                                                <path strokeLinecap="round" strokeLinejoin="round"
-                                                    d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 inline text-gray-400">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
                                             </svg>
                                             Prenota una Consulenza
                                         </p>

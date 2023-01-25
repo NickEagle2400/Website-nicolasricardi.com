@@ -25,16 +25,16 @@ const Footer = () => {
                             <h3 className="font-medium text-white mb-4">Servizi</h3>
                             <ul className="flex flex-col gap-3 text-gray-400 font-light text-sm">
                                 <li className="p-0 m-0">
-                                    <Link href="/sviluppo-sito-web" className="hover:text-white">Roadmapping</Link>
+                                    <Link href="/roadmapping" className="hover:text-white">Roadmapping</Link>
                                 </li>
                                 <li className="p-0 m-0">
-                                    <Link href="/ottimizzazione-seo" className="hover:text-white">Creazione Sito Web</Link>
+                                    <Link href="/creazione-sito-web" className="hover:text-white">Creazione Sito Web</Link>
                                 </li>
                                 <li className="p-0 m-0">
-                                    <Link href="ottimizzazione-conversion-rate" className="hover:text-white">Sicurezza & Manutenzione</Link>
+                                    <Link href="/manutenzione-sicurezza" className="hover:text-white">Manutenzione & Sicurezza</Link>
                                 </li>
                                 <li className="p-0 m-0">
-                                    <Link href="ottimizzazione-conversion-rate" className="hover:text-white">Audit Core Web Vitals</Link>
+                                    <Link href="/pagina-in-costruzione" className="hover:text-white">Audit Core Web Vitals</Link>
                                 </li>
                             </ul>
                         </div>
@@ -42,17 +42,21 @@ const Footer = () => {
                             <h3 className="font-medium text-white mb-4">Link Utili</h3>
                             <ul className="flex flex-col gap-3 text-gray-400 font-light text-sm">
                                 <li className="p-0 m-0">
-                                    <Link href="/chi-sono" className="hover:text-white">Home</Link>
+                                    <Link href="/" className="hover:text-white">Home</Link>
                                 </li>
                                 <li className="p-0 m-0">
                                     <Link href="/portfolio" className="hover:text-white">Portfolio</Link>
                                 </li>
                                 <li className="p-0 m-0">
-                                    <Link href="/contatti" className="hover:text-white">Blog</Link>
+                                    <Link href="/blog" className="hover:text-white">Blog</Link>
                                 </li>
                                 <li className="p-0 m-0">
                                     <Link href="/contatti" className="hover:text-white">Contatti</Link>
                                 </li>
+                                <li className="p-0 m-0">
+                                    <Link href="https://billing.stripe.com/p/login/6oEaGb2E41nj0O4aEE" target="_blank" className="hover:text-white">Portale Clienti</Link>
+                                </li>
+                                
                             </ul>
                         </div>
                         <div className="flex flex-col w-100 xl:w-1/5">

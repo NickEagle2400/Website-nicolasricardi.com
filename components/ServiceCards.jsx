@@ -41,7 +41,7 @@ const ServiceCards = (props) => {
                                 <p className="text-white font-medium">Customer Journey</p>
                             </div>
                         </div>
-                        <Link href="/creazione-sito-web" className="text-white font-medium block mt-8 group">Definiamo la strategia
+                        <Link href="/roadmapping" className="text-white font-medium block mt-8 group">Definiamo la strategia
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="ml-2 w-5 h-5 inline transition-transform duration-200 group-hover:rotate-45">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
@@ -121,7 +121,7 @@ const ServiceCards = (props) => {
                                 <p className="text-white font-medium">Deploy automatico</p>
                             </div>
                         </div>
-                        <Link href="/creazione-sito-web" className="text-white font-medium block mt-8 group">Basta notti insonni
+                        <Link href="/manutenzione-sicurezza" className="text-white font-medium block mt-8 group">Basta notti insonni
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="ml-2 w-5 h-5 inline transition-transform duration-200 group-hover:rotate-45">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>

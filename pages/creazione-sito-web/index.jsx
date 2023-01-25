@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { StandardLayout } from '../../layout'
-import { Faq, Hero, IntegrationDetails, PortfolioFeatured, SeoHead, ServiceDetails, ServiceGridDetail, Testimonials, WebDevContact } from '../../components'
+import { Faq, SeoHead, WebServiceDetails, Testimonials, WebDevContact } from '../../components'
 import { FaqContainer } from '../../container'
 
 
@@ -9,20 +9,20 @@ const WebsiteServicePage = () => {
 
     const faqList= [
         {
-            question: 'How much does it cost?',
-            answer: 'Website development projects start at US $5.000 (including Roadmapping). Every project is unique but on average, typical projects cost around $7.500-10.500.'
+            question: 'Quanto costa un sito web di media',
+            answer: 'Il costo di un sito web è influenzato da moltissimi fattori, tra cui il numero di pagine, le integrazione API, la tecnologia etc. A priori non sono in grado di stimare un costo per ciascun caso. Se vuoi un preventivo personalizzato contattami senza impegno.'
         },
         {
-            question: 'Which technology do you use for website development?',
-            answer: 'I support different stacks (including PHP, Next, Gatsby, Vue) and other traditional (WordPress) & headless CMS (Prismic, Contentful, Sanity, Forestry, Storyblok, Netlify CMS).            '
+            question: 'Quale tecnologia utilizzi per lo sviluppo di siti web?',
+            answer: 'Per i siti web utilizzo principalmente Next.js con Hygraph, un headless CMS per la gestione dei contenuti. Alternativamente sviluppo utilizzando Wordpress.'
         },
         {
-            question: 'Can we start working without roadmapping?',
-            answer: 'No. Roadmapping is essential to ensure your website meets all your business goals. It allows me to understand your requirements and pain points, devise potential solutions and align on the direction before I develop your engine.'
+            question: 'Possiamo iniziare a lavorare senza roadmapping?',
+            answer: 'No. La roadmapping è essenziale per garantire che il tuo sito web soddisfi tutti i tuoi obiettivi di business.Mi consente di comprendere le tue esigenze e i tuoi punti deboli, ideare potenziali soluzioni e allinearmi sulla direzione da seguire prima di sviluppare.'
         },
         {
-            question: 'Do you develop eCommerce websites?',
-            answer: 'Yes, I develop websites that are fully integrated with Shopify, WooCommerce, or SnipCart.'
+            question: 'Sviluppi siti ecommerce?',
+            answer: 'Tendenzialmente no, ma valuto caso per caso, accettando solo clienti per cui sono certo di realizzare un prodotto di valore.'
         }
     ]
 
@@ -38,17 +38,23 @@ const WebsiteServicePage = () => {
                 pageCover="/assets/img/coverHome.png"
                 websiteDomain="nicolasricardi.com"
             />
-            <Hero 
-                title="Creazione Sito Web"
-                subtitle="SITI WEB RESPONSIVE E SU MISURA"
-            />
 
-
-
+        <section className="relative pt-12 pb-6 xl:py-20 xl:pb-0 bg-black flex items-center justify-center">
+            <div className="w-full px-4 mx-auto flex flex-col xl:flex-row xl:px-0 xl:max-w-7xl xl:gap-12 items-center gap-16">
+                <div className="w-full xl:w-3/5 flex flex-col gap-6">
+                    <h1 className="text-3xl text-white font-bold w-full mx-auto relative leading-tight xl:text-6xl">
+                        Realizzo esperienze web su misura per Freelance e Imprese
+                    </h1>
+                    <p className="relative leading-relaxed font-light text-gray-300">
+                        Aiuto imprenditori e liberi professionisti a convertire gli utenti del loro sito in potenziali clienti grazie ad un pacchetto "chiavi in mano" completamente personalizzato per le necessità del loro business.
+                    </p>
+                </div>
+            </div>
+        </section>
 
 
             
-            <ServiceDetails />
+            <WebServiceDetails />
 
             <section className="relative pt-12 pb-6 xl:py-16 bg-black flex items-center justify-center">
                 <div className="w-full px-4 mx-auto flex flex-col md:flex-row xl:px-0 xl:max-w-7xl justify-between gap-10 md:gap-0">

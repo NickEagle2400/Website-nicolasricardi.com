@@ -6,7 +6,7 @@ import SEOImage from '../public/assets/img/CWV.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
-const ServiceDetails = (props) => {
+const RoadServiceDetails = (props) => {
     return (
         <section className="relative py-12 xl:py-20 bg-black">
             <div className="flex flex-col w-full px-4 xl:px-0 xl:max-w-screen-xl mx-auto gap-20">
@@ -18,22 +18,15 @@ const ServiceDetails = (props) => {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
                                 </svg>
                             </div>
-                            NEXT.js + Hygraph CMS
+                            Definisci gli obiettivi
                         </h2>
-                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold xl:leading-tight mb-4">Tecnologie di ultima generazione al servizio della tua attività.</h3>
+                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold xl:leading-tight mb-4">Un sito web non allineato agli obiettivi di business della tua azienda è uno spreco di soldi.</h3>
                         <p className="text-gray-400 font-light">
                             Grazie all'utilizzo di NEXT.js sono in grado di garantirti al 100% dei prodotti altamente performanti e adatti a business di qualsiasi dimensione, dal libero professionista che opera in un territorio ben definito, fino alla Company che opera a livello internazionale.
                         </p>
                         <p className="text-gray-400 font-light mt-4">
                             Con Hygraph CMS potrai gestire tutti i contenuti del tuo sito web in autonomia da un CMS con un'interfaccia ancor più semplice e intuitiva di quella di Wordpress.
                         </p>
-                        <div className="mt-8">
-                            <Link href="/creazione-sito-web" className="text-white font-medium block mt-8 group">Voglio saperne di più
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="ml-2 w-5 h-5 inline transition-transform duration-200 group-hover:rotate-45">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                </svg>
-                            </Link>
-                        </div>
                     </div>
                     <div className="w-full xl:w-1/2">
                         <Image src={WebDevImage} alt="Creazione di siti web - Nicolas Ricardi"/>
@@ -48,9 +41,9 @@ const ServiceDetails = (props) => {
                                 </svg>
 
                             </div>
-                            Siti Web SEO-Friendly
+                            Architettura dell'informazione
                         </h2>
-                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold xl:leading-tight mb-4">Core Web Vitals del tuo sito web ottimizzate seguendo le linee guida di Google.</h3>
+                        <h3 className="text-white font-medium text-3xl xl:text-4xl xl:font-bold xl:leading-tight mb-4">Una buona architettura dell'informazione fa la differenza tra il successo e il fallimento</h3>
                         <p className="text-gray-400 font-light">
                             Aumenta l'usabilità del tuo sito web ottimizzanto i tempi di caricamento delle pagine e dei contenuti, così da offrire un'esperienza unica ai tuoi utenti. Inoltre ciò permetterà a Google di valutare positivamente il tuo sito e ti permetterà di comparire più in alto nei risulta di ricerca.
                         </p>
@@ -88,13 +81,6 @@ const ServiceDetails = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-8">
-                            <Link href="/creazione-sito-web" className="text-white font-medium block mt-8 group">Voglio un audit SEO del mio sito web
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="ml-2 w-5 h-5 inline transition-transform duration-200 group-hover:rotate-45">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                </svg>
-                            </Link>
-                        </div>
                     </div>
                     <div className="w-full xl:w-1/2">
                         <Image src={SEOImage} alt="Dashboard di Vercel in riferimento alle prestazioni del sito www.nicolasricardi.com"/>
@@ -105,4 +91,4 @@ const ServiceDetails = (props) => {
     )
 }
 
-export default ServiceDetails
+export default RoadServiceDetails

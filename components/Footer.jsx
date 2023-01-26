@@ -80,8 +80,8 @@ const Footer = () => {
                     </div>
                     <div className="py-6 flex flex-col-reverse gap-6 xl:gap-0 xl:flex-row align-center justify-center">
                         <div className="w-full xl:w-1/3 flex items-center text-center px-6 xl:px-0 xl:text-left">
-                            <p className="text-gray-400 text-sm font-light leading-normale w-full text-center xl:text-left">© <span id="year"></span>
-                                <Link href="https://www.nicolasricardi.com">Nicolas Ricardi</Link> - Tutti i diritti sono riservati</p>
+                            <p className="text-gray-400 text-sm font-light leading-normale w-full text-center xl:text-left leading-normal">
+                                Sviluppato con <Link href="https://nextjs.org/" rel='external'>Next.js</Link> & <Link href="https://www.nicolasricardi.com">Hygraph</Link><br />© <span id="year">2023</span> Nicolas Ricardi - Tutti i diritti sono riservati</p>
                         </div>
                         <div className="w-full xl:w-1/3 flex items-center justify-center">
                             <p className="text-center">

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const BlogPostSidebar = () => {
     return(
-        <aside className="w-full md:w-1/3">
+        <aside className="w-full md:w-1/4 hidden lg:block">
             <div className="rounded-md px-6 py-6 sticky top-[150px]">
                 <p className="text-gray-200 font-light text-lg">Indice dei contenuti:</p>
                 <div className="flex flex-col gap-2 pl-4 mt-4">

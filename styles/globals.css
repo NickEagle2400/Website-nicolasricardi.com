@@ -21,7 +21,70 @@
         @apply inline-block cursor-pointer relative py-2 px-4 z-10 text-white bg-black transition duration-200 border-b-2 border-transparent hover:border-b-white;
     }
     strong{
-        @apply font-bold text-white;
+        @apply font-medium text-white;
+    }
+    i{
+        @apply italic
+    }
+
+    #blogPostContent h2, #blogPostContent h3, #blogPostContent h4, #blogPostContent h5, #blogPostContent h6{
+        @apply text-white
+    }
+
+    #blogPostContent h2{
+        @apply text-2xl lg:text-4xl font-bold mt-16 mb-4
+    }
+    #blogPostContent h3{
+        @apply text-xl lg:text-3xl font-bold mt-10 mb-4
+    }
+    #blogPostContent h4{
+        @apply text-xl lg:text-2xl font-bold mt-8 mb-4
+    }
+    #blogPostContent h5{
+        @apply text-xl lg:text-xl font-bold mt-6 mb-4
+    }
+    #blogPostContent h6{
+        @apply text-xl lg:text-xl font-bold mt-6 mb-4
+    }
+
+    #blogPostContent p{
+        @apply text-gray-300 text-lg font-light my-4 leading-loose
+    }
+
+    #blogPostContent blockquote{
+        @apply text-gray-300 italic pl-4 border-l-4 border-gray-300 py-2
+    }
+
+    #blogPostContent code{
+        @apply text-gray-500 font-light
+    }
+
+    #blogPostContent img{
+        @apply block text-center
+    }
+
+    #blogPostContent ul{
+        @apply my-6 list-disc pl-8
+    }
+
+    #blogPostContent ul ul{
+        @apply my-2 list-disc pl-8
+    }
+
+    #blogPostContent ul li{
+        @apply text-gray-300 my-2 font-light
+    }
+
+    #blogPostContent ol{
+        @apply my-6 list-decimal pl-8
+    }
+
+    #blogPostContent ol ol{
+        @apply my-2 list-disc pl-8
+    }
+
+    #blogPostContent ol li{
+        @apply text-gray-300 my-2 font-light
     }
 }
 

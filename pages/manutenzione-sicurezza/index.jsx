@@ -7,6 +7,19 @@ import { FaqContainer } from '../../container'
 
 const MaintenanceServicePage = () => {
 
+    const metadata = {
+        url:"https://wwww.nicolasricardi.com/manutenzione-sicurezza",
+        metaTitle:"Manutenzione e Sicurezza per Siti Web di Imprese e Liberi Professionisti - Nicolas Ricardi web.dev",
+        metaDescription:"Smetti di preoccuparti del tuo sito web e concentrati su quello che conta davvero per la tua attività.",
+        socialTitle:"Manutenzione e Sicurezza per Siti Web di Imprese e Liberi Professionisti - Nicolas Ricardi web.dev",
+        SocialDescription:"Smetti di preoccuparti del tuo sito web e concentrati su quello che conta davvero per la tua attività.",
+        metaKeywords:"Nicolas Ricardi,manutenzione sito web, sicurezza sito web",
+        socialImage:{
+            url:"https://wwww.nicolasricardi.com/assets/img/coverHome.png",
+        },
+        domain:"nicolasricardi.com"
+    }
+
     const faqList= [
         {
             question: "Come posso cancellare l'abbonamento?",
@@ -30,13 +43,14 @@ const MaintenanceServicePage = () => {
     return (
         <StandardLayout>
             <SeoHead 
-                pageURL="https://wwww.nicolasricardi.com/ottimizzazione-seo"
-                pageTitle="Ottimizzazione SEO Tecnica - Nicolas Ricardi"
-                pageDesc="Compila il modulo per inviami un messaggio senza impegno."
-                pageSocialDesc="Compila il modulo per inviami un messaggio senza impegno."
-                pageKeywords="Nicolas Ricardi, contattami"
-                pageCover="/assets/img/coverHome.png"
-                websiteDomain="nicolasricardi.com"
+                pageURL={metadata.url}
+                pageTitle={metadata.metaTitle}
+                pageDesc={metadata.metaDescription}
+                pageSocialTitle={metadata.socialTitle}
+                pageSocialDesc={metadata.SocialDescription}
+                pageKeywords={metadata.metaKeywords}
+                pageCover={metadata.socialImage.url}
+                websiteDomain={metadata.domain}
             />
             <section className="relative pt-12 pb-6 xl:py-20 xl:pb-0 bg-black flex items-center justify-center">
                 <div className="w-full px-4 mx-auto flex flex-col xl:flex-row xl:px-0 xl:max-w-7xl xl:gap-12 items-center gap-16">

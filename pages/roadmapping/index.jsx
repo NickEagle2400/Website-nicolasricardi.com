@@ -7,6 +7,19 @@ import { FaqContainer } from '../../container'
 
 const Roadmapping = () => {
 
+    const metadata = {
+        url:"https://wwww.nicolasricardi.com/roadmapping",
+        metaTitle:"Roadmapping e Architettura Dell'Informazione Per Il Tuo Sito Web - Nicolas Ricardi Web.Dev",
+        metaDescription:"Scopri come il tuo sito web può beneficiare di un attento studio dell'architettura e dell'organizzazione dell'informazione e aumentare il flusso di contatti organici per la tua attività.",
+        socialTitle:"Roadmapping e Architettura Dell'Informazione Per Il Tuo Sito Web - Nicolas Ricardi Web.Dev",
+        SocialDescription:"Scopri come il tuo sito web può beneficiare di un attento studio dell'architettura e dell'organizzazione dell'informazione e aumentare il flusso di contatti organici per la tua attività.",
+        metaKeywords:"Roadmapping sito web, alberatura sito web, nicolas ricardi, architettura dell'informazione, architettura dell'informazione sito web, strategia sito web, sitemap sito web",
+        socialImage:{
+            url:"https://wwww.nicolasricardi.com/assets/img/coverHome.png",
+        },
+        domain:"nicolasricardi.com"
+    }
+
     const faqList= [
         {
             question: 'Il roadmapping è necessario se voglio un sito web?',
@@ -30,13 +43,14 @@ const Roadmapping = () => {
     return (
         <StandardLayout>
             <SeoHead 
-                pageURL="https://wwww.nicolasricardi.com/ottimizzazione-seo"
-                pageTitle="Ottimizzazione SEO Tecnica - Nicolas Ricardi"
-                pageDesc="Compila il modulo per inviami un messaggio senza impegno."
-                pageSocialDesc="Compila il modulo per inviami un messaggio senza impegno."
-                pageKeywords="Nicolas Ricardi, contattami"
-                pageCover="/assets/img/coverHome.png"
-                websiteDomain="nicolasricardi.com"
+                pageURL={metadata.url}
+                pageTitle={metadata.metaTitle}
+                pageDesc={metadata.metaDescription}
+                pageSocialTitle={metadata.socialTitle}
+                pageSocialDesc={metadata.SocialDescription}
+                pageKeywords={metadata.metaKeywords}
+                pageCover={metadata.socialImage.url}
+                websiteDomain={metadata.domain}
             />
             <section className="relative pt-12 pb-6 xl:py-20 xl:pb-0 bg-black flex items-center justify-center">
                 <div className="w-full px-4 mx-auto flex flex-col xl:flex-row xl:px-0 xl:max-w-7xl xl:gap-12 items-center gap-16">

@@ -4,16 +4,29 @@ import { Contact, SeoHead } from '../../components'
 
 
 const ContactPage = () => {
+    const metadata = {
+        url:"https://wwww.nicolasricardi.com/creazione-sito-web",
+        metaTitle:"Consulenza Gratuita - Nicolas Ricardi web.dev",
+        metaDescription:"Prenota 30 minuti di consulenza strategica gratuita con me per parlare del tuo sito web.",
+        socialTitle:"Consulenza Gratuita - Nicolas Ricardi web.dev",
+        SocialDescription:"Prenota 30 minuti di consulenza strategica gratuita con me per parlare del tuo sito web.",
+        metaKeywords:"Nicolas Ricardi, consulenza sito web, consulenza gratuita sito web, consulenza sito web treviglio",
+        socialImage:{
+            url:"https://wwww.nicolasricardi.com/assets/img/coverHome.png",
+        },
+        domain:"nicolasricardi.com"
+    }
     return (
         <StandardLayout>
             <SeoHead 
-                pageURL="https://wwww.nicolasricardi.com/contatti"
-                pageTitle="Contattami - Nicolas Ricardi"
-                pageDesc="Compila il modulo per inviami un messaggio senza impegno."
-                pageSocialDesc="Compila il modulo per inviami un messaggio senza impegno."
-                pageKeywords="Nicolas Ricardi, contattami"
-                pageCover="/assets/img/coverHome.png"
-                websiteDomain="nicolasricardi.com"
+                pageURL={metadata.url}
+                pageTitle={metadata.metaTitle}
+                pageDesc={metadata.metaDescription}
+                pageSocialTitle={metadata.socialTitle}
+                pageSocialDesc={metadata.SocialDescription}
+                pageKeywords={metadata.metaKeywords}
+                pageCover={metadata.socialImage.url}
+                websiteDomain={metadata.domain}
             />
             <Contact />
         </StandardLayout>

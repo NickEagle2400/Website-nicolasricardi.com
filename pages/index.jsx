@@ -4,17 +4,32 @@ import { BannerLogos, BoxCallToAction, MainHero, NewsletterBox, SeoHead, Service
 import { StandardLayout } from '../layout'
 
 const Home = () => {
+
+  const metadata = {
+    url:"https://wwww.nicolasricardi.com/",
+    metaTitle:"Cresci e Genera Potenziali Clienti Ogni Giorno Grazie al tuo Sito Web - Nicolas Ricardi web.dev",
+    metaDescription:"Ti aiuto a crescere e ad affermarti online grazie a siti web che generano costantemente un flusso di potenziali clienti interessati ai tuoi prodotti o servizi.",
+    socialTitle:"Cresci e Genera Potenziali Clienti Ogni Giorno Grazie al tuo Sito Web - Nicolas Ricardi web.dev",
+    SocialDescription:"Ti aiuto a crescere e ad affermarti online grazie a siti web che generano costantemente un flusso di potenziali clienti interessati ai tuoi prodotti o servizi.",
+    metaKeywords:"Nicolas Ricardi,Creazione sito web, sviluppo sito web, realizzazione sito web, sviluppo sito web Treviglio, creazione sito web Treviglio, lead generation",
+    socialImage:{
+        url:"https://wwww.nicolasricardi.com/assets/img/coverHome.png",
+    },
+    domain:"nicolasricardi.com"
+}
+
   return (
     <StandardLayout>
       <SeoHead 
-        pageURL="https://wwww.nicolasricardi.com/"
-        pageTitle="Creo di siti web che generano contatti per il tuo business - Nicolas Ricardi"
-        pageDesc="Mi occupo di progettazione e creazioni di siti web orientati a trasformare i visitatori in potenziali clienti per la tua attività o libera professione."
-        pageSocialDesc="Progetto siti web in grado di convertire i visitari in lead per la tua attività"
-        pageKeywords="Nicolas Ricardi, Realizzazione siti Web Treviglio, Realizzazione siti web Bergamo, Creazione siti web Bergamo, Creazione siti web Treviglio, Lead generation Treviglio, lead generation Bergamo, Lead generation b2b"
-        pageCover="/assets/img/coverHome.png"
-        websiteDomain="nicolasricardi.com"
-      />
+                pageURL={metadata.url}
+                pageTitle={metadata.metaTitle}
+                pageDesc={metadata.metaDescription}
+                pageSocialTitle={metadata.socialTitle}
+                pageSocialDesc={metadata.SocialDescription}
+                pageKeywords={metadata.metaKeywords}
+                pageCover={metadata.socialImage.url}
+                websiteDomain={metadata.domain}
+            />
       <MainHero />
       <BannerLogos />
       <ServiceCards />

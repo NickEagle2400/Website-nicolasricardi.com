@@ -9,7 +9,7 @@ const MainHero = () => {
         <section className="relative pt-12 pb-6 xl:py-20 xl:pb-12 bg-black flex items-center justify-center">
             <div className="w-full px-4 mx-auto flex flex-col md:flex-row xl:px-0 xl:max-w-7xl xl:gap-12 items-center gap-16">
                 <div className="w-full xl:w-1/2 flex flex-col gap-6">
-                    <h1 className="text-5xl text-white font-bold w-full mx-auto relative leading-tight xl:text-6xl">
+                    <h1 className="text-4xl text-white font-bold w-full mx-auto relative leading-tight xl:text-6xl">
                         Genera clienti e fai crescere il tuo business grazie al tuo sito web.
                     </h1>
                     <p className="relative leading-relaxed font-light text-gray-300">

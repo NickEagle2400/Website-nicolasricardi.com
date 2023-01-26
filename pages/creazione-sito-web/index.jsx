@@ -7,9 +7,22 @@ import { FaqContainer } from '../../container'
 
 const WebsiteServicePage = () => {
 
+    const metadata = {
+        url:"https://wwww.nicolasricardi.com/creazione-sito-web",
+        metaTitle:"Creazione Siti Web per Aziende e Liberi Professionisti a Treviglio - Nicolas Ricardi web.dev",
+        metaDescription:"Smetti di perdere soldi e aumenta il numero di potenziali clienti per la tua attività grazie a siti web orientati alla conversione.",
+        socialTitle:"Creazione Siti Web per Aziende e Liberi Professionisti - Nicolas Ricardi web.dev",
+        SocialDescription:"Smetti di perdere soldi e aumenta il numero di potenziali clienti per la tua attività grazie alla creazione di siti web orientati alla conversione.",
+        metaKeywords:"Nicolas Ricardi,Creazione sito web, sviluppo sito web, realizzazione sito web, sviluppo sito web Treviglio, creazione sito web Treviglio",
+        socialImage:{
+            url:"https://wwww.nicolasricardi.com/assets/img/coverHome.png",
+        },
+        domain:"nicolasricardi.com"
+    }
+
     const faqList= [
         {
-            question: 'Quanto costa un sito web di media',
+            question: 'In media quanto costa un sito web?',
             answer: 'Il costo di un sito web è influenzato da moltissimi fattori, tra cui il numero di pagine, le integrazione API, la tecnologia etc. A priori non sono in grado di stimare un costo per ciascun caso. Se vuoi un preventivo personalizzato contattami senza impegno.'
         },
         {
@@ -18,7 +31,7 @@ const WebsiteServicePage = () => {
         },
         {
             question: 'Possiamo iniziare a lavorare senza roadmapping?',
-            answer: 'No. La roadmapping è essenziale per garantire che il tuo sito web soddisfi tutti i tuoi obiettivi di business.Mi consente di comprendere le tue esigenze e i tuoi punti deboli, ideare potenziali soluzioni e allinearmi sulla direzione da seguire prima di sviluppare.'
+            answer: 'No. La roadmapping è essenziale per garantire che il tuo sito web soddisfi tutti i tuoi obiettivi di business. Mi consente di comprendere le tue esigenze e i tuoi punti deboli, ideare potenziali soluzioni e allinearmi sulla direzione da seguire prima di sviluppare.'
         },
         {
             question: 'Sviluppi siti ecommerce?',
@@ -30,15 +43,15 @@ const WebsiteServicePage = () => {
     return (
         <StandardLayout>
             <SeoHead 
-                pageURL="https://wwww.nicolasricardi.com/creazione-sito-web"
-                pageTitle="Creazione Siti Web per Aziende e Liberi Professionisti - Nicolas Ricardi"
-                pageDesc="Lorem ipsum dolor sit amet"
-                pageSocialDesc="Lorem ipsum dolor sit amet"
-                pageKeywords="Nicolas Ricardi,Creazione sito web, sviluppo sito web, realizzazione sito web, sviluppo sito web Treviglio, creazione sito web Treviglio"
-                pageCover="/assets/img/coverHome.png"
-                websiteDomain="nicolasricardi.com"
+                pageURL={metadata.url}
+                pageTitle={metadata.metaTitle}
+                pageDesc={metadata.metaDescription}
+                pageSocialTitle={metadata.socialTitle}
+                pageSocialDesc={metadata.SocialDescription}
+                pageKeywords={metadata.metaKeywords}
+                pageCover={metadata.socialImage.url}
+                websiteDomain={metadata.domain}
             />
-
         <section className="relative pt-12 pb-6 xl:py-20 xl:pb-0 bg-black flex items-center justify-center">
             <div className="w-full px-4 mx-auto flex flex-col xl:flex-row xl:px-0 xl:max-w-7xl xl:gap-12 items-center gap-16">
                 <div className="w-full xl:w-3/5 flex flex-col gap-6">

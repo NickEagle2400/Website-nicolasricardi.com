@@ -8,14 +8,14 @@ import { FaqContainer } from '../../container'
 const Roadmapping = () => {
 
     const metadata = {
-        url:"https://wwww.nicolasricardi.com/roadmapping",
+        url:"https://www.nicolasricardi.com/roadmapping",
         metaTitle:"Roadmapping e Architettura Dell'Informazione Per Il Tuo Sito Web - Nicolas Ricardi Web.Dev",
         metaDescription:"Scopri come il tuo sito web può beneficiare di un attento studio dell'architettura e dell'organizzazione dell'informazione e aumentare il flusso di contatti organici per la tua attività.",
         socialTitle:"Roadmapping e Architettura Dell'Informazione Per Il Tuo Sito Web - Nicolas Ricardi Web.Dev",
         SocialDescription:"Scopri come il tuo sito web può beneficiare di un attento studio dell'architettura e dell'organizzazione dell'informazione e aumentare il flusso di contatti organici per la tua attività.",
         metaKeywords:"Roadmapping sito web, alberatura sito web, nicolas ricardi, architettura dell'informazione, architettura dell'informazione sito web, strategia sito web, sitemap sito web",
         socialImage:{
-            url:"https://wwww.nicolasricardi.com/assets/img/coverHome.png",
+            url:"https://www.nicolasricardi.com/assets/img/coverHome.png",
         },
         domain:"nicolasricardi.com"
     }

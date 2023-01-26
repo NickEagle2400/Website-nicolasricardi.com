@@ -8,14 +8,14 @@ import {getBlogPosts} from '../../services'
 const Blog = ({posts}) => {
 
     const metadata = {
-        url:"https://wwww.nicolasricardi.com/blog",
+        url:"https://www.nicolasricardi.com/blog",
         metaTitle:"Blog di Nicolas Ricardi - Web Developer Freelance",
         metaDescription:"In questo blog troverai articoli che parleranno di architettura dell'informazione, web development, SEO e ottimizzazione del tasso di conversione.",
         socialTitle:"Blog di Nicolas Ricardi - Web Developer Freelance",
         SocialDescription:"In questo blog troverai articoli che parleranno di architettura dell'informazione, web development, SEO e ottimizzazione del tasso di conversione.",
         metaKeywords:"Blog sviluppo web, blog web design, nicolas ricardi, nicolas ricardi blog",
         socialImage:{
-            url:"https://wwww.nicolasricardi.com/assets/img/coverHome.png",
+            url:"https://www.nicolasricardi.com/assets/img/coverHome.png",
         },
         domain:"nicolasricardi.com"
     }

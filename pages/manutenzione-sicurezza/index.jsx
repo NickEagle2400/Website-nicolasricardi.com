@@ -8,14 +8,14 @@ import { FaqContainer } from '../../container'
 const MaintenanceServicePage = () => {
 
     const metadata = {
-        url:"https://wwww.nicolasricardi.com/manutenzione-sicurezza",
+        url:"https://www.nicolasricardi.com/manutenzione-sicurezza",
         metaTitle:"Manutenzione e Sicurezza per Siti Web di Imprese e Liberi Professionisti - Nicolas Ricardi web.dev",
         metaDescription:"Smetti di preoccuparti del tuo sito web e concentrati su quello che conta davvero per la tua attività.",
         socialTitle:"Manutenzione e Sicurezza per Siti Web di Imprese e Liberi Professionisti - Nicolas Ricardi web.dev",
         SocialDescription:"Smetti di preoccuparti del tuo sito web e concentrati su quello che conta davvero per la tua attività.",
         metaKeywords:"Nicolas Ricardi,manutenzione sito web, sicurezza sito web",
         socialImage:{
-            url:"https://wwww.nicolasricardi.com/assets/img/coverHome.png",
+            url:"https://www.nicolasricardi.com/assets/img/coverHome.png",
         },
         domain:"nicolasricardi.com"
     }

@@ -180,6 +180,23 @@ const Header = () => {
                     </div>
                     <div className="flex flex-col mt-4">
 
+                        <Link href="/roadmapping">
+                            <div className="flex flex-row gap-2 items-center py-2 border-b-[1px] border-zinc-700">
+                                <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 text-black">
+                                        <path strokeLinecap="round" strokeLinejoin="round"
+                                            d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
+                                    </svg>
+                                </div>
+                                <p className="text-gray-300 font-light">Roadmapping</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+                                    stroke="currentColor" className="w-3 h-3 text-zinc-800">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </div>
+                        </Link>
+
                         <Link href="/creazione-sito-web">
                             <div className="flex flex-row gap-2 items-center py-2 border-b-[1px] border-zinc-700">
                                 <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
@@ -189,7 +206,7 @@ const Header = () => {
                                             d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
                                     </svg>
                                 </div>
-                                <p className="text-gray-300 font-light">Sviluppo Sito Web</p>
+                                <p className="text-gray-300 font-light">Creazione Sito Web</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                                     stroke="currentColor" className="w-3 h-3 text-zinc-800">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
@@ -197,24 +214,7 @@ const Header = () => {
                             </div>
                         </Link>
 
-                        <Link href="/ottimizzazione-seo">
-                            <div href="" className="flex flex-row gap-2 items-center py-2 border-b-[1px] border-zinc-700">
-                                <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 text-black">
-                                        <path strokeLinecap="round" strokeLinejoin="round"
-                                            d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
-                                    </svg>
-                                </div>
-                                <p className="text-gray-300 font-light">SEO</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
-                                    stroke="currentColor" className="w-3 h-3 text-zinc-800">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                </svg>
-                            </div>
-                        </Link>
-
-                        <Link href="/ottimizzazione-conversion-rate">
+                        <Link href="/manutenzione-sicurezza">
                             <div href="" className="flex flex-row gap-2 items-center py-2">
                                 <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center drop-shadow-lg">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -223,7 +223,7 @@ const Header = () => {
                                             d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z" />
                                     </svg>
                                 </div>
-                                <p className="text-gray-300 font-light">Content Strategy</p>
+                                <p className="text-gray-300 font-light">Manutenzione & Sicurezza Sito Web</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                                     stroke="currentColor" className="w-3 h-3 text-zinc-800">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />

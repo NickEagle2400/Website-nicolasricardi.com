@@ -14,7 +14,7 @@ const SingleBlogPost = ({post}) => {
     return (
         <StandardLayout>
             <SeoHead 
-                pageURL={"https://wwww.nicolasricardi.com/blog/".concat(post.slug)}
+                pageURL={"https://www.nicolasricardi.com/blog/".concat(post.slug)}
                 pageTitle={post.seoMetadata.metaTitle}
                 pageDesc={post.seoMetadata.metaDescription}
                 pageSocialTitle={post.seoMetadata.socialTitle}

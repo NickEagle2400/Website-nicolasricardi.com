@@ -5,7 +5,7 @@ const FourOhFour = () => {
     return (
         <StandardLayout>
             <SeoHead 
-                pageURL="https://wwww.nicolasricardi.com/"
+                pageURL="https://www.nicolasricardi.com/"
                 pageTitle="Pagina non trovata - Nicolas Ricardi"
                 pageDesc="Il contenuto che stai cercando non esiste."
                 pageSocialDesc="Il contenuto che stai cercando non esiste."

@@ -270,7 +270,7 @@ const Header = () => {
                             Hai delle domande?
                             <Link href="/pagina-in-costruzione">
                                 <span className="text-main text-gray-200" href="#">
-                                    &nbsp;Vai alle F.A.Q.
+                                    &nbsp;Scrivimi
                                 </span>
                             </Link>
                         </p>

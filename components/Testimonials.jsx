@@ -64,8 +64,8 @@ const Testimonials = () => {
                                             <Image src={RevSecond} fill alt="test" style={{objectFit:"cover"}}/>
                                         </div>
                                         <div>
-                                            <p className="text-gray-300 cursor-default font-medium">Antonio La Falce</p>
-                                            <p className="text-gray-300 cursor-default font-medium">CEO Hintime Group</p>
+                                            <p className="text-gray-300 cursor-default font-medium">Mauro Rossi</p>
+                                            <p className="text-gray-300 cursor-default font-medium">CEO</p>
                                         </div>
                                     </div>
                                     
